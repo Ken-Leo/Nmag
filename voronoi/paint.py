@@ -1,5 +1,4 @@
 import matplotlib as mpl
-import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -56,25 +55,15 @@ plt.axis((-15, 15, -15, 15))
 # only hard result
 result_array = []
 for i, result in enumerate(result_list):
-    if i %  2 == 0:
+    if i % 2 == 0:
         result_array.append(result)
 result_array = np.array(result_array)
-result_max = result_array.max()
-result_min = result_array.min()
-result_normal = mpl.colors.Normalize(vmin=result_min, vmax=result_max)
-Greys = cm.get_cmap('Greys')
-Up_color = Greys(0)
-Down_color = Greys(192)
-color_list = np.zeros((len(point_list), 4))
-for i in range(len(point_list)):
-    result = result_list[i*2]
-    if result > 0:
-        color_list[i] = Up_color
-    else:
-        color_list[i] = Down_color
+# result_normal = mpl.colors.Normalize()
+# result_normal.autoscale(result_array)
 # region_list
-poly_coll = mpl.collections.PolyCollection(region_list, norm=result_normal, cmap=cm.get_cmap('jet'))
+poly_coll = mpl.collections.PolyCollection(region_list, norm=mpl.colors.Normalize(), cmap=mpl.cm.get_cmap('jet'))
 poly_coll.set_array(result_array)
+plt.colorbar(poly_coll, orientation='vertical')
 ax.add_collection(poly_coll)
 # point_list
 for i in range(len(point_list)):
