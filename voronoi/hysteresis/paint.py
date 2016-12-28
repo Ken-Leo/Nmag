@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-plt.rcParams['animation.ffmpeg_path'] = 'D:\\env\\ImageMagick-7.0.4-0-portable-Q16-x64\\ffmpeg.exe'
+# plt.rcParams['animation.ffmpeg_path'] = 'D:\\env\\ImageMagick-7.0.4-0-portable-Q16-x64\\ffmpeg.exe'
 # plt.rcParams['animation.convert_path'] = '"D:\\env\\ImageMagick-7.0.4-0-portable-Q16-x64\\convert.exe"'
 
 
@@ -94,6 +94,6 @@ def update(frame_number):
     return poly_coll
 poly_ani = animation.FuncAnimation(fig, update, frames=end_stage-start_stage, interval=500, repeat=False)
 plt.rcParams['animation.ffmpeg_path'] = 'D:\\env\\ImageMagick-7.0.4-0-portable-Q16-x64\\ffmpeg.exe'
-FFwriter = animation.FFMpegWriter(fps=3, bitrate=7200)
+FFwriter = animation.FFMpegWriter(fps=4, bitrate=7200)
 poly_ani.save('result.mp4', writer=FFwriter)
 plt.close()
