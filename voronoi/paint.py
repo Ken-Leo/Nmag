@@ -1,4 +1,4 @@
-import matplotlib
+import matplotlib as mpl
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,15 @@ print('point_list: %d, region_list: %d, result_list: %d' % (len(point_list), len
 fig = plt.figure()
 ax = fig.gca()
 plt.axis((-15, 15, -15, 15))
-#
+# only hard result
+result_array = []
+for i, result in enumerate(result_list):
+    if i %  2 == 0:
+        result_array.append(result)
+result_array = np.array(result_array)
+result_max = result_array.max()
+result_min = result_array.min()
+result_normal = mpl.colors.Normalize(vmin=result_min, vmax=result_max)
 Greys = cm.get_cmap('Greys')
 Up_color = Greys(0)
 Down_color = Greys(192)
@@ -65,7 +73,8 @@ for i in range(len(point_list)):
     else:
         color_list[i] = Down_color
 # region_list
-poly_coll = matplotlib.collections.PolyCollection(region_list, facecolors=color_list)
+poly_coll = mpl.collections.PolyCollection(region_list, norm=result_normal, cmap=cm.get_cmap('jet'))
+poly_coll.set_array(result_array)
 ax.add_collection(poly_coll)
 # point_list
 for i in range(len(point_list)):
