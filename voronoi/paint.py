@@ -58,9 +58,6 @@ for i, result in enumerate(result_list):
     if i % 2 == 0:
         result_array.append(result)
 result_array = np.array(result_array)
-# result_normal = mpl.colors.Normalize()
-# result_normal.autoscale(result_array)
-# region_list
 poly_coll = mpl.collections.PolyCollection(region_list, norm=mpl.colors.Normalize(), cmap=mpl.cm.get_cmap('jet'))
 poly_coll.set_array(result_array)
 plt.colorbar(poly_coll, orientation='vertical')
