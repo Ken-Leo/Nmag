@@ -1,0 +1,1 @@
+ffmpeg -t 10 -i result.mp4 result.gif
