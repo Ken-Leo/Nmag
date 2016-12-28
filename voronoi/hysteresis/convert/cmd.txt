@@ -1,1 +1,2 @@
+# ffmpeg download from http://www.imagemagick.org/script/binary-releases.php
 ffmpeg -t 6 -i result.mp4 result.gif
