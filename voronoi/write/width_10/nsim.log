@@ -1,0 +1,1853 @@
+       nsim:2016-12-29 15:58:46,122   setup.py  471    INFO Nsim 0.2.1
+       nsim:2016-12-29 15:58:46,122   setup.py  472    INFO Runid is 'cubes'
+       nsim:2016-12-29 15:58:46,123   setup.py  473    INFO Using 1 CPUs
+ku_hard 1604333.333333
+       nmag:2016-12-29 15:58:46,239 simulation_core.py  141    INFO Simulation(name=cubes) object created
+       nmag:2016-12-29 15:58:46,239    main.py  859    INFO Versions:
+	     nsim version = 0.2.1
+	     release date = Fri Jan 13 09:38:20 2012
+	          VC info = 467:d7c316deb156
+	distribution mode = all-source
+	distribution date = Fri Jan 13 09:38:22 GMT 2012
+       nmag:2016-12-29 15:58:46,240    main.py  860    INFO Paths:
+	nsimpath = /home/nmag/nmag-0.2.1/nsim/interface/nsim
+	nmagpath = /home/nmag/nmag-0.2.1/nsim/interface/nmag
+       nmag:2016-12-29 15:58:46,241    main.py  472    INFO Created new Material:
+ Material 'H1'
+                      name = H1
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34558c0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,242    main.py  472    INFO Created new Material:
+ Material 'S2'
+                      name = S2
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34559b0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,243    main.py  472    INFO Created new Material:
+ Material 'H3'
+                      name = H3
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455aa0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,244    main.py  472    INFO Created new Material:
+ Material 'S4'
+                      name = S4
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455b90>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,245    main.py  472    INFO Created new Material:
+ Material 'H5'
+                      name = H5
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455c80>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,246    main.py  472    INFO Created new Material:
+ Material 'S6'
+                      name = S6
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455d70>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,247    main.py  472    INFO Created new Material:
+ Material 'H7'
+                      name = H7
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455e60>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,248    main.py  472    INFO Created new Material:
+ Material 'S8'
+                      name = S8
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3455f50>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,249    main.py  472    INFO Created new Material:
+ Material 'H9'
+                      name = H9
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34590c8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,249    main.py  472    INFO Created new Material:
+ Material 'S10'
+                      name = S10
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34591b8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,250    main.py  472    INFO Created new Material:
+ Material 'H11'
+                      name = H11
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34592a8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,251    main.py  472    INFO Created new Material:
+ Material 'S12'
+                      name = S12
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459398>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,252    main.py  472    INFO Created new Material:
+ Material 'H13'
+                      name = H13
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459488>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,253    main.py  472    INFO Created new Material:
+ Material 'S14'
+                      name = S14
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459578>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,254    main.py  472    INFO Created new Material:
+ Material 'H15'
+                      name = H15
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459668>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,255    main.py  472    INFO Created new Material:
+ Material 'S16'
+                      name = S16
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459758>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,256    main.py  472    INFO Created new Material:
+ Material 'H17'
+                      name = H17
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459848>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,257    main.py  472    INFO Created new Material:
+ Material 'S18'
+                      name = S18
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459938>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,257    main.py  472    INFO Created new Material:
+ Material 'H19'
+                      name = H19
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459a28>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,258    main.py  472    INFO Created new Material:
+ Material 'S20'
+                      name = S20
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459b18>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,259    main.py  472    INFO Created new Material:
+ Material 'H21'
+                      name = H21
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459c08>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,260    main.py  472    INFO Created new Material:
+ Material 'S22'
+                      name = S22
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459cf8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,261    main.py  472    INFO Created new Material:
+ Material 'H23'
+                      name = H23
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459de8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,262    main.py  472    INFO Created new Material:
+ Material 'S24'
+                      name = S24
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3459ed8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,263    main.py  472    INFO Created new Material:
+ Material 'H25'
+                      name = H25
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e050>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,264    main.py  472    INFO Created new Material:
+ Material 'S26'
+                      name = S26
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e140>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,264    main.py  472    INFO Created new Material:
+ Material 'H27'
+                      name = H27
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e230>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,265    main.py  472    INFO Created new Material:
+ Material 'S28'
+                      name = S28
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e320>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,266    main.py  472    INFO Created new Material:
+ Material 'H29'
+                      name = H29
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e410>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,267    main.py  472    INFO Created new Material:
+ Material 'S30'
+                      name = S30
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e500>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,268    main.py  472    INFO Created new Material:
+ Material 'H31'
+                      name = H31
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e5f0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,269    main.py  472    INFO Created new Material:
+ Material 'S32'
+                      name = S32
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e6e0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,270    main.py  472    INFO Created new Material:
+ Material 'H33'
+                      name = H33
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e7d0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,271    main.py  472    INFO Created new Material:
+ Material 'S34'
+                      name = S34
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e8c0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,272    main.py  472    INFO Created new Material:
+ Material 'H35'
+                      name = H35
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345e9b0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,272    main.py  472    INFO Created new Material:
+ Material 'S36'
+                      name = S36
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345eaa0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,273    main.py  472    INFO Created new Material:
+ Material 'H37'
+                      name = H37
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345eb90>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,274    main.py  472    INFO Created new Material:
+ Material 'S38'
+                      name = S38
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345ec80>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,275    main.py  472    INFO Created new Material:
+ Material 'H39'
+                      name = H39
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345ed70>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,276    main.py  472    INFO Created new Material:
+ Material 'S40'
+                      name = S40
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345ee60>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,277    main.py  472    INFO Created new Material:
+ Material 'H41'
+                      name = H41
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x345ef50>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,277    main.py  472    INFO Created new Material:
+ Material 'S42'
+                      name = S42
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34640c8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,278    main.py  472    INFO Created new Material:
+ Material 'H43'
+                      name = H43
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34641b8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,279    main.py  472    INFO Created new Material:
+ Material 'S44'
+                      name = S44
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34642a8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,280    main.py  472    INFO Created new Material:
+ Material 'H45'
+                      name = H45
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464398>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,281    main.py  472    INFO Created new Material:
+ Material 'S46'
+                      name = S46
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464488>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,281    main.py  472    INFO Created new Material:
+ Material 'H47'
+                      name = H47
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464578>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,282    main.py  472    INFO Created new Material:
+ Material 'S48'
+                      name = S48
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464668>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,283    main.py  472    INFO Created new Material:
+ Material 'H49'
+                      name = H49
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464758>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,284    main.py  472    INFO Created new Material:
+ Material 'S50'
+                      name = S50
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464848>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,285    main.py  472    INFO Created new Material:
+ Material 'H51'
+                      name = H51
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464938>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,286    main.py  472    INFO Created new Material:
+ Material 'S52'
+                      name = S52
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464a28>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,286    main.py  472    INFO Created new Material:
+ Material 'H53'
+                      name = H53
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464b18>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,287    main.py  472    INFO Created new Material:
+ Material 'S54'
+                      name = S54
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464c08>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,288    main.py  472    INFO Created new Material:
+ Material 'H55'
+                      name = H55
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464cf8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,289    main.py  472    INFO Created new Material:
+ Material 'S56'
+                      name = S56
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464de8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,290    main.py  472    INFO Created new Material:
+ Material 'H57'
+                      name = H57
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3464ed8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,290    main.py  472    INFO Created new Material:
+ Material 'S58'
+                      name = S58
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467050>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,291    main.py  472    INFO Created new Material:
+ Material 'H59'
+                      name = H59
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467140>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,292    main.py  472    INFO Created new Material:
+ Material 'S60'
+                      name = S60
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467230>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,293    main.py  472    INFO Created new Material:
+ Material 'H61'
+                      name = H61
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467320>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,294    main.py  472    INFO Created new Material:
+ Material 'S62'
+                      name = S62
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467410>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,295    main.py  472    INFO Created new Material:
+ Material 'H63'
+                      name = H63
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467500>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,295    main.py  472    INFO Created new Material:
+ Material 'S64'
+                      name = S64
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34675f0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,296    main.py  472    INFO Created new Material:
+ Material 'H65'
+                      name = H65
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34676e0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,297    main.py  472    INFO Created new Material:
+ Material 'S66'
+                      name = S66
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34677d0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,298    main.py  472    INFO Created new Material:
+ Material 'H67'
+                      name = H67
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34678c0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,299    main.py  472    INFO Created new Material:
+ Material 'S68'
+                      name = S68
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x34679b0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,299    main.py  472    INFO Created new Material:
+ Material 'H69'
+                      name = H69
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467aa0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,300    main.py  472    INFO Created new Material:
+ Material 'S70'
+                      name = S70
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467b90>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,301    main.py  472    INFO Created new Material:
+ Material 'H71'
+                      name = H71
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467c80>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,302    main.py  472    INFO Created new Material:
+ Material 'S72'
+                      name = S72
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467d70>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,302    main.py  472    INFO Created new Material:
+ Material 'H73'
+                      name = H73
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467e60>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,303    main.py  472    INFO Created new Material:
+ Material 'S74'
+                      name = S74
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3467f50>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,304    main.py  472    INFO Created new Material:
+ Material 'H75'
+                      name = H75
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x35280c8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,305    main.py  472    INFO Created new Material:
+ Material 'S76'
+                      name = S76
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x35281b8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,306    main.py  472    INFO Created new Material:
+ Material 'H77'
+                      name = H77
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x35282a8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,306    main.py  472    INFO Created new Material:
+ Material 'S78'
+                      name = S78
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528398>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,307    main.py  472    INFO Created new Material:
+ Material 'H79'
+                      name = H79
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528488>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,308    main.py  472    INFO Created new Material:
+ Material 'S80'
+                      name = S80
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528578>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,309    main.py  472    INFO Created new Material:
+ Material 'H81'
+                      name = H81
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528668>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,310    main.py  472    INFO Created new Material:
+ Material 'S82'
+                      name = S82
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528758>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,311    main.py  472    INFO Created new Material:
+ Material 'H83'
+                      name = H83
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528848>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,311    main.py  472    INFO Created new Material:
+ Material 'S84'
+                      name = S84
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528938>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,312    main.py  472    INFO Created new Material:
+ Material 'H85'
+                      name = H85
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528a28>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,313    main.py  472    INFO Created new Material:
+ Material 'S86'
+                      name = S86
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528b18>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,314    main.py  472    INFO Created new Material:
+ Material 'H87'
+                      name = H87
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528c08>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,314    main.py  472    INFO Created new Material:
+ Material 'S88'
+                      name = S88
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528cf8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,315    main.py  472    INFO Created new Material:
+ Material 'H89'
+                      name = H89
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528de8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,316    main.py  472    INFO Created new Material:
+ Material 'S90'
+                      name = S90
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x3528ed8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,317    main.py  472    INFO Created new Material:
+ Material 'H91'
+                      name = H91
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c050>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,318    main.py  472    INFO Created new Material:
+ Material 'S92'
+                      name = S92
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c140>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,318    main.py  472    INFO Created new Material:
+ Material 'H93'
+                      name = H93
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c230>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,319    main.py  472    INFO Created new Material:
+ Material 'S94'
+                      name = S94
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c320>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,320    main.py  472    INFO Created new Material:
+ Material 'H95'
+                      name = H95
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c410>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,321    main.py  472    INFO Created new Material:
+ Material 'S96'
+                      name = S96
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c500>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,322    main.py  472    INFO Created new Material:
+ Material 'H97'
+                      name = H97
+                        Ms = <SI: 500000  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c5f0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.98522e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,322    main.py  472    INFO Created new Material:
+ Material 'S98'
+                      name = S98
+                        Ms = <SI: 750000  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x352c6e0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 1.32348e-28  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2016-12-29 15:58:46,322    main.py 1164    INFO Reading mesh from cubes.nmesh.h5, unit_length is <SI: 1e-09  m >. 
+nmesh.ocaml:2016-12-29 15:58:46,572    INFO Computing mesh connectivity data
+nmesh.ocaml:2016-12-29 15:58:46,696    INFO Mesh nodes: 8318,  simplices: 24882 
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H1' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S2' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H3' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S4' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H5' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S6' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H7' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S8' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H9' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S10' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H11' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'S12' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,805    main.py 1225    INFO Adding region 'H13' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S14' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H15' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S16' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H17' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S18' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H19' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S20' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H21' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S22' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H23' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S24' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H25' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S26' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H27' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S28' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H29' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'S30' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,806    main.py 1225    INFO Adding region 'H31' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S32' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H33' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S34' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H35' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S36' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H37' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S38' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H39' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S40' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H41' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S42' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H43' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S44' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H45' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S46' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H47' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S48' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'H49' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,807    main.py 1225    INFO Adding region 'S50' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H51' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S52' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H53' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S54' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H55' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S56' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H57' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S58' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H59' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S60' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H61' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S62' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H63' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S64' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H65' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S66' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'H67' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,808    main.py 1225    INFO Adding region 'S68' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H69' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S70' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H71' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S72' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H73' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S74' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H75' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S76' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H77' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S78' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H79' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S80' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H81' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S82' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H83' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S84' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H85' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'S86' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,809    main.py 1225    INFO Adding region 'H87' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S88' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'H89' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S90' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'H91' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S92' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'H93' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S94' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'H95' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S96' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'H97' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,810    main.py 1225    INFO Adding region 'S98' to 'cubes' simulation object
+       nmag:2016-12-29 15:58:46,811 nmag_lam.py   97    INFO properties_by_region: [(-1, ['outer']), (0, ['0']), (1, ['1', 'H1', 'magnetic', 'material']), (2, ['2', 'S2', 'magnetic', 'material']), (3, ['3', 'H3', 'magnetic', 'material']), (4, ['4', 'S4', 'magnetic', 'material']), (5, ['5', 'H5', 'magnetic', 'material']), (6, ['6', 'S6', 'magnetic', 'material']), (7, ['7', 'H7', 'magnetic', 'material']), (8, ['8', 'S8', 'magnetic', 'material']), (9, ['9', 'H9', 'magnetic', 'material']), (10, ['10', 'S10', 'magnetic', 'material']), (11, ['11', 'H11', 'magnetic', 'material']), (12, ['12', 'S12', 'magnetic', 'material']), (13, ['13', 'H13', 'magnetic', 'material']), (14, ['14', 'S14', 'magnetic', 'material']), (15, ['15', 'H15', 'magnetic', 'material']), (16, ['16', 'S16', 'magnetic', 'material']), (17, ['17', 'H17', 'magnetic', 'material']), (18, ['18', 'S18', 'magnetic', 'material']), (19, ['19', 'H19', 'magnetic', 'material']), (20, ['20', 'S20', 'magnetic', 'material']), (21, ['21', 'H21', 'magnetic', 'material']), (22, ['22', 'S22', 'magnetic', 'material']), (23, ['23', 'H23', 'magnetic', 'material']), (24, ['24', 'S24', 'magnetic', 'material']), (25, ['25', 'H25', 'magnetic', 'material']), (26, ['26', 'S26', 'magnetic', 'material']), (27, ['27', 'H27', 'magnetic', 'material']), (28, ['28', 'S28', 'magnetic', 'material']), (29, ['29', 'H29', 'magnetic', 'material']), (30, ['30', 'S30', 'magnetic', 'material']), (31, ['31', 'H31', 'magnetic', 'material']), (32, ['32', 'S32', 'magnetic', 'material']), (33, ['33', 'H33', 'magnetic', 'material']), (34, ['34', 'S34', 'magnetic', 'material']), (35, ['35', 'H35', 'magnetic', 'material']), (36, ['36', 'S36', 'magnetic', 'material']), (37, ['37', 'H37', 'magnetic', 'material']), (38, ['38', 'S38', 'magnetic', 'material']), (39, ['39', 'H39', 'magnetic', 'material']), (40, ['40', 'S40', 'magnetic', 'material']), (41, ['41', 'H41', 'magnetic', 'material']), (42, ['42', 'S42', 'magnetic', 'material']), (43, ['43', 'H43', 'magnetic', 'material']), (44, ['44', 'S44', 'magnetic', 'material']), (45, ['45', 'H45', 'magnetic', 'material']), (46, ['46', 'S46', 'magnetic', 'material']), (47, ['47', 'H47', 'magnetic', 'material']), (48, ['48', 'S48', 'magnetic', 'material']), (49, ['49', 'H49', 'magnetic', 'material']), (50, ['50', 'S50', 'magnetic', 'material']), (51, ['51', 'H51', 'magnetic', 'material']), (52, ['52', 'S52', 'magnetic', 'material']), (53, ['53', 'H53', 'magnetic', 'material']), (54, ['54', 'S54', 'magnetic', 'material']), (55, ['55', 'H55', 'magnetic', 'material']), (56, ['56', 'S56', 'magnetic', 'material']), (57, ['57', 'H57', 'magnetic', 'material']), (58, ['58', 'S58', 'magnetic', 'material']), (59, ['59', 'H59', 'magnetic', 'material']), (60, ['60', 'S60', 'magnetic', 'material']), (61, ['61', 'H61', 'magnetic', 'material']), (62, ['62', 'S62', 'magnetic', 'material']), (63, ['63', 'H63', 'magnetic', 'material']), (64, ['64', 'S64', 'magnetic', 'material']), (65, ['65', 'H65', 'magnetic', 'material']), (66, ['66', 'S66', 'magnetic', 'material']), (67, ['67', 'H67', 'magnetic', 'material']), (68, ['68', 'S68', 'magnetic', 'material']), (69, ['69', 'H69', 'magnetic', 'material']), (70, ['70', 'S70', 'magnetic', 'material']), (71, ['71', 'H71', 'magnetic', 'material']), (72, ['72', 'S72', 'magnetic', 'material']), (73, ['73', 'H73', 'magnetic', 'material']), (74, ['74', 'S74', 'magnetic', 'material']), (75, ['75', 'H75', 'magnetic', 'material']), (76, ['76', 'S76', 'magnetic', 'material']), (77, ['77', 'H77', 'magnetic', 'material']), (78, ['78', 'S78', 'magnetic', 'material']), (79, ['79', 'H79', 'magnetic', 'material']), (80, ['80', 'S80', 'magnetic', 'material']), (81, ['81', 'H81', 'magnetic', 'material']), (82, ['82', 'S82', 'magnetic', 'material']), (83, ['83', 'H83', 'magnetic', 'material']), (84, ['84', 'S84', 'magnetic', 'material']), (85, ['85', 'H85', 'magnetic', 'material']), (86, ['86', 'S86', 'magnetic', 'material']), (87, ['87', 'H87', 'magnetic', 'material']), (88, ['88', 'S88', 'magnetic', 'material']), (89, ['89', 'H89', 'magnetic', 'material']), (90, ['90', 'S90', 'magnetic', 'material']), (91, ['91', 'H91', 'magnetic', 'material']), (92, ['92', 'S92', 'magnetic', 'material']), (93, ['93', 'H93', 'magnetic', 'material']), (94, ['94', 'S94', 'magnetic', 'material']), (95, ['95', 'H95', 'magnetic', 'material']), (96, ['96', 'S96', 'magnetic', 'material']), (97, ['97', 'H97', 'magnetic', 'material']), (98, ['98', 'S98', 'magnetic', 'material'])]
+       nmag:2016-12-29 15:58:46,811 nmag_lam.py  189    INFO Processing material 'H1'
+       nmag:2016-12-29 15:58:46,811 nmag_lam.py  189    INFO Processing material 'S2'
+       nmag:2016-12-29 15:58:46,812 nmag_lam.py  189    INFO Processing material 'H3'
+       nmag:2016-12-29 15:58:46,812 nmag_lam.py  189    INFO Processing material 'S4'
+       nmag:2016-12-29 15:58:46,812 nmag_lam.py  189    INFO Processing material 'H5'
+       nmag:2016-12-29 15:58:46,813 nmag_lam.py  189    INFO Processing material 'S6'
+       nmag:2016-12-29 15:58:46,813 nmag_lam.py  189    INFO Processing material 'H7'
+       nmag:2016-12-29 15:58:46,813 nmag_lam.py  189    INFO Processing material 'S8'
+       nmag:2016-12-29 15:58:46,814 nmag_lam.py  189    INFO Processing material 'H9'
+       nmag:2016-12-29 15:58:46,814 nmag_lam.py  189    INFO Processing material 'S10'
+       nmag:2016-12-29 15:58:46,814 nmag_lam.py  189    INFO Processing material 'H11'
+       nmag:2016-12-29 15:58:46,815 nmag_lam.py  189    INFO Processing material 'S12'
+       nmag:2016-12-29 15:58:46,815 nmag_lam.py  189    INFO Processing material 'H13'
+       nmag:2016-12-29 15:58:46,815 nmag_lam.py  189    INFO Processing material 'S14'
+       nmag:2016-12-29 15:58:46,816 nmag_lam.py  189    INFO Processing material 'H15'
+       nmag:2016-12-29 15:58:46,816 nmag_lam.py  189    INFO Processing material 'S16'
+       nmag:2016-12-29 15:58:46,816 nmag_lam.py  189    INFO Processing material 'H17'
+       nmag:2016-12-29 15:58:46,817 nmag_lam.py  189    INFO Processing material 'S18'
+       nmag:2016-12-29 15:58:46,817 nmag_lam.py  189    INFO Processing material 'H19'
+       nmag:2016-12-29 15:58:46,817 nmag_lam.py  189    INFO Processing material 'S20'
+       nmag:2016-12-29 15:58:46,818 nmag_lam.py  189    INFO Processing material 'H21'
+       nmag:2016-12-29 15:58:46,818 nmag_lam.py  189    INFO Processing material 'S22'
+       nmag:2016-12-29 15:58:46,819 nmag_lam.py  189    INFO Processing material 'H23'
+       nmag:2016-12-29 15:58:46,819 nmag_lam.py  189    INFO Processing material 'S24'
+       nmag:2016-12-29 15:58:46,819 nmag_lam.py  189    INFO Processing material 'H25'
+       nmag:2016-12-29 15:58:46,820 nmag_lam.py  189    INFO Processing material 'S26'
+       nmag:2016-12-29 15:58:46,820 nmag_lam.py  189    INFO Processing material 'H27'
+       nmag:2016-12-29 15:58:46,820 nmag_lam.py  189    INFO Processing material 'S28'
+       nmag:2016-12-29 15:58:46,821 nmag_lam.py  189    INFO Processing material 'H29'
+       nmag:2016-12-29 15:58:46,821 nmag_lam.py  189    INFO Processing material 'S30'
+       nmag:2016-12-29 15:58:46,821 nmag_lam.py  189    INFO Processing material 'H31'
+       nmag:2016-12-29 15:58:46,822 nmag_lam.py  189    INFO Processing material 'S32'
+       nmag:2016-12-29 15:58:46,822 nmag_lam.py  189    INFO Processing material 'H33'
+       nmag:2016-12-29 15:58:46,822 nmag_lam.py  189    INFO Processing material 'S34'
+       nmag:2016-12-29 15:58:46,823 nmag_lam.py  189    INFO Processing material 'H35'
+       nmag:2016-12-29 15:58:46,823 nmag_lam.py  189    INFO Processing material 'S36'
+       nmag:2016-12-29 15:58:46,823 nmag_lam.py  189    INFO Processing material 'H37'
+       nmag:2016-12-29 15:58:46,824 nmag_lam.py  189    INFO Processing material 'S38'
+       nmag:2016-12-29 15:58:46,824 nmag_lam.py  189    INFO Processing material 'H39'
+       nmag:2016-12-29 15:58:46,825 nmag_lam.py  189    INFO Processing material 'S40'
+       nmag:2016-12-29 15:58:46,825 nmag_lam.py  189    INFO Processing material 'H41'
+       nmag:2016-12-29 15:58:46,825 nmag_lam.py  189    INFO Processing material 'S42'
+       nmag:2016-12-29 15:58:46,826 nmag_lam.py  189    INFO Processing material 'H43'
+       nmag:2016-12-29 15:58:46,826 nmag_lam.py  189    INFO Processing material 'S44'
+       nmag:2016-12-29 15:58:46,826 nmag_lam.py  189    INFO Processing material 'H45'
+       nmag:2016-12-29 15:58:46,827 nmag_lam.py  189    INFO Processing material 'S46'
+       nmag:2016-12-29 15:58:46,827 nmag_lam.py  189    INFO Processing material 'H47'
+       nmag:2016-12-29 15:58:46,827 nmag_lam.py  189    INFO Processing material 'S48'
+       nmag:2016-12-29 15:58:46,828 nmag_lam.py  189    INFO Processing material 'H49'
+       nmag:2016-12-29 15:58:46,828 nmag_lam.py  189    INFO Processing material 'S50'
+       nmag:2016-12-29 15:58:46,828 nmag_lam.py  189    INFO Processing material 'H51'
+       nmag:2016-12-29 15:58:46,829 nmag_lam.py  189    INFO Processing material 'S52'
+       nmag:2016-12-29 15:58:46,829 nmag_lam.py  189    INFO Processing material 'H53'
+       nmag:2016-12-29 15:58:46,829 nmag_lam.py  189    INFO Processing material 'S54'
+       nmag:2016-12-29 15:58:46,830 nmag_lam.py  189    INFO Processing material 'H55'
+       nmag:2016-12-29 15:58:46,830 nmag_lam.py  189    INFO Processing material 'S56'
+       nmag:2016-12-29 15:58:46,830 nmag_lam.py  189    INFO Processing material 'H57'
+       nmag:2016-12-29 15:58:46,831 nmag_lam.py  189    INFO Processing material 'S58'
+       nmag:2016-12-29 15:58:46,831 nmag_lam.py  189    INFO Processing material 'H59'
+       nmag:2016-12-29 15:58:46,832 nmag_lam.py  189    INFO Processing material 'S60'
+       nmag:2016-12-29 15:58:46,832 nmag_lam.py  189    INFO Processing material 'H61'
+       nmag:2016-12-29 15:58:46,832 nmag_lam.py  189    INFO Processing material 'S62'
+       nmag:2016-12-29 15:58:46,833 nmag_lam.py  189    INFO Processing material 'H63'
+       nmag:2016-12-29 15:58:46,833 nmag_lam.py  189    INFO Processing material 'S64'
+       nmag:2016-12-29 15:58:46,833 nmag_lam.py  189    INFO Processing material 'H65'
+       nmag:2016-12-29 15:58:46,834 nmag_lam.py  189    INFO Processing material 'S66'
+       nmag:2016-12-29 15:58:46,834 nmag_lam.py  189    INFO Processing material 'H67'
+       nmag:2016-12-29 15:58:46,834 nmag_lam.py  189    INFO Processing material 'S68'
+       nmag:2016-12-29 15:58:46,835 nmag_lam.py  189    INFO Processing material 'H69'
+       nmag:2016-12-29 15:58:46,835 nmag_lam.py  189    INFO Processing material 'S70'
+       nmag:2016-12-29 15:58:46,835 nmag_lam.py  189    INFO Processing material 'H71'
+       nmag:2016-12-29 15:58:46,836 nmag_lam.py  189    INFO Processing material 'S72'
+       nmag:2016-12-29 15:58:46,836 nmag_lam.py  189    INFO Processing material 'H73'
+       nmag:2016-12-29 15:58:46,836 nmag_lam.py  189    INFO Processing material 'S74'
+       nmag:2016-12-29 15:58:46,837 nmag_lam.py  189    INFO Processing material 'H75'
+       nmag:2016-12-29 15:58:46,837 nmag_lam.py  189    INFO Processing material 'S76'
+       nmag:2016-12-29 15:58:46,837 nmag_lam.py  189    INFO Processing material 'H77'
+       nmag:2016-12-29 15:58:46,838 nmag_lam.py  189    INFO Processing material 'S78'
+       nmag:2016-12-29 15:58:46,838 nmag_lam.py  189    INFO Processing material 'H79'
+       nmag:2016-12-29 15:58:46,839 nmag_lam.py  189    INFO Processing material 'S80'
+       nmag:2016-12-29 15:58:46,839 nmag_lam.py  189    INFO Processing material 'H81'
+       nmag:2016-12-29 15:58:46,839 nmag_lam.py  189    INFO Processing material 'S82'
+       nmag:2016-12-29 15:58:46,840 nmag_lam.py  189    INFO Processing material 'H83'
+       nmag:2016-12-29 15:58:46,840 nmag_lam.py  189    INFO Processing material 'S84'
+       nmag:2016-12-29 15:58:46,840 nmag_lam.py  189    INFO Processing material 'H85'
+       nmag:2016-12-29 15:58:46,841 nmag_lam.py  189    INFO Processing material 'S86'
+       nmag:2016-12-29 15:58:46,841 nmag_lam.py  189    INFO Processing material 'H87'
+       nmag:2016-12-29 15:58:46,841 nmag_lam.py  189    INFO Processing material 'S88'
+       nmag:2016-12-29 15:58:46,842 nmag_lam.py  189    INFO Processing material 'H89'
+       nmag:2016-12-29 15:58:46,842 nmag_lam.py  189    INFO Processing material 'S90'
+       nmag:2016-12-29 15:58:46,842 nmag_lam.py  189    INFO Processing material 'H91'
+       nmag:2016-12-29 15:58:46,843 nmag_lam.py  189    INFO Processing material 'S92'
+       nmag:2016-12-29 15:58:46,843 nmag_lam.py  189    INFO Processing material 'H93'
+       nmag:2016-12-29 15:58:46,843 nmag_lam.py  189    INFO Processing material 'S94'
+       nmag:2016-12-29 15:58:46,844 nmag_lam.py  189    INFO Processing material 'H95'
+       nmag:2016-12-29 15:58:46,844 nmag_lam.py  189    INFO Processing material 'S96'
+       nmag:2016-12-29 15:58:46,845 nmag_lam.py  189    INFO Processing material 'H97'
+       nmag:2016-12-29 15:58:46,845 nmag_lam.py  189    INFO Processing material 'S98'
+ nfem.ocaml:2016-12-29 15:58:46,846    INFO Associating elements to mesh ('m')
+ nfem.ocaml:2016-12-29 15:58:47,234    INFO Associating elements to mesh ('E')
+ nfem.ocaml:2016-12-29 15:58:47,431    INFO Associating elements to mesh ('H_demag')
+ nfem.ocaml:2016-12-29 15:58:47,853    INFO Associating elements to mesh ('scalar')
+ nfem.ocaml:2016-12-29 15:58:48,087    INFO Assembling site-wise offsets for fields [|"m"|]
+ nfem.ocaml:2016-12-29 15:58:48,646    INFO Compiling linalg_machine
+ nfem.ocaml:2016-12-29 15:58:52,527    INFO Starting to build dense matrices (BEM)
+ nfem.ocaml:2016-12-29 15:59:17,943    INFO Populating BEM took 25.415932 seconds
+ nfem.ocaml:2016-12-29 15:59:18,540    INFO Creating site-wise-executor 'local_M_from_m'
+ nfem.ocaml:2016-12-29 15:59:18,540    INFO Assembling site-wise offsets for fields [|"m"; "M"|]
+ nfem.ocaml:2016-12-29 15:59:19,312    INFO Creating site-wise-executor 'local_E_total'
+ nfem.ocaml:2016-12-29 15:59:19,312    INFO Assembling site-wise offsets for fields [|"m"; "E_anis"; "E_ext"; "E_demag"; "E_exch"; "E_total"; "H_ext"; "H_demag"; "H_exch"; "H_total"|]
+ nfem.ocaml:2016-12-29 15:59:21,373    INFO Creating site-wise-executor 'local_H_total'
+ nfem.ocaml:2016-12-29 15:59:21,373    INFO Assembling site-wise offsets for fields [|"H_total"; "H_exch"; "H_ext"; "H_anis"; "H_demag"|]
+ nfem.ocaml:2016-12-29 15:59:22,946    INFO Creating site-wise-executor 'local_correct_m_lengths'
+ nfem.ocaml:2016-12-29 15:59:22,946    INFO Assembling site-wise offsets for fields [|"m"|]
+ nfem.ocaml:2016-12-29 15:59:23,538    INFO Creating site-wise-executor 'local_E_anis'
+ nfem.ocaml:2016-12-29 15:59:23,538    INFO Assembling site-wise offsets for fields [|"E_anis"; "m"|]
+ nfem.ocaml:2016-12-29 15:59:24,109    INFO Creating site-wise-executor 'local_H_anis'
+ nfem.ocaml:2016-12-29 15:59:24,109    INFO Assembling site-wise offsets for fields [|"H_anis"; "m"|]
+ nfem.ocaml:2016-12-29 15:59:24,249    INFO Creating site-wise-executor 'local_dmdt'
+ nfem.ocaml:2016-12-29 15:59:24,250    INFO Assembling site-wise offsets for fields [|"m"; "dmdt"; "H_total"; "pin"|]
+ nfem.ocaml:2016-12-29 15:59:25,453    INFO Assembling site-wise offsets for fields [|"m"|]
+H_max 5106751.607342
+       nmag:2016-12-29 15:59:25,542    main.py 1101    INFO Simulation(name=cubes).set_params(): stopping_dm_dt=<SI: 3.49066e+07  / s >
+       nmag:2016-12-29 15:59:25,545 hysteresis.py  441    INFO Hysteresis loop: starting a new simulation.
+       nmag:2016-12-29 15:59:25,545 hysteresis.py  443    INFO Hysteresis loop: check file 'cubes_progress.txt' for progress data
+       nmag:2016-12-29 15:59:25,545 hysteresis.py  450    INFO hysteresis: starting new stage: field = None
+ nfem.ocaml:2016-12-29 15:59:30,478    INFO Making Jacobi MX: 24954 x 24954 ([|24954|] x [|24954|])
+       nmag:2016-12-29 15:59:41,690 hysteresis.py   40    INFO it 5, time <2.25502e-14s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:00:48,101 hysteresis.py   40    INFO it 185, time <7.1817e-12s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:01:51,980 hysteresis.py   40    INFO it 360, time <9.97156e-12s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:02:58,680 hysteresis.py   40    INFO it 555, time <1.2933e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:03:59,184 hysteresis.py   40    INFO it 670, time <1.4902e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:05:07,263 hysteresis.py   40    INFO it 865, time <1.68649e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:06:07,845 hysteresis.py   40    INFO it 1245, time <2.069e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:07:01,376 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x35e7938> at id=-1,step=1530.
+============================================================================
+ID=-1 |        Step=1530 |       Time=41.78 ps |  Last step size=0.84 ps  | 
+      |       Stage=1    | Stage-step=1530     |      Stage-time=41.78 ps | 
+      | Convergence=True |  Stage-end=True     | Exit hysteresis=False    | 
+============================================================================
+       nmag:2016-12-29 16:07:01,422    main.py 2593    INFO save_data(): id->id+1=0, fields=all 
+/home/nmag/nmag-0.2.1/lib/python2.7/site-packages/tables/table.py:742: PerformanceWarning: table ``/mesh/dofsites`` is exceeding the recommended maximum number of columns (512); be ready to see PyTables asking for *lots* of memory and possibly slow I/O
+  PerformanceWarning )
+       nmag:2016-12-29 16:07:30,756    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2016-12-29 16:07:32,909 hysteresis.py  441    INFO Hysteresis loop: starting a new simulation.
+       nmag:2016-12-29 16:07:32,909 hysteresis.py  443    INFO Hysteresis loop: check file 'cubes_progress.txt' for progress data
+       nmag:2016-12-29 16:07:32,909 hysteresis.py  450    INFO hysteresis: starting new stage: field = None
+       nmag:2016-12-29 16:07:42,189 hysteresis.py   40    INFO it 1535, time <2.91993e-14s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:08:43,703 hysteresis.py   40    INFO it 1685, time <6.17684e-12s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:09:49,443 hysteresis.py   40    INFO it 1800, time <8.7552e-12s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:10:54,111 hysteresis.py   40    INFO it 2000, time <1.2436e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:11:58,994 hysteresis.py   40    INFO it 2110, time <1.44605e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:13:08,640 hysteresis.py   40    INFO it 2310, time <1.70799e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:14:15,477 hysteresis.py   40    INFO it 2590, time <2.3081e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:15:20,913 hysteresis.py   40    INFO it 2785, time <3.34884e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:16:27,560 hysteresis.py   40    INFO it 3080, time <7.38595e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:17:30,032 hysteresis.py   40    INFO it 3230, time <8.86737e-11s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:18:31,493 hysteresis.py   40    INFO it 3510, time <1.03502e-10s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:19:31,642 hysteresis.py   40    INFO it 3565, time <1.24027e-10s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:20:32,172 hysteresis.py   40    INFO it 3770, time <2.17103e-10s>; stage 1; H_ext=None
+       nmag:2016-12-29 16:20:37,284 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x35e7938> at id=0,step=3805.
+=========================================================================
+ID=0 |        Step=3805 |       Time=0.29 ns |  Last step size=0.76 ps | 
+     |       Stage=1    | Stage-step=2275    |      Stage-time=0.24 ns | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+=========================================================================
+       nmag:2016-12-29 16:20:37,330    main.py 2593    INFO save_data(): id->id+1=1, fields=all 
+       nmag:2016-12-29 16:20:44,304    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+Use Time 21.312716 min
