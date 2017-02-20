@@ -1,0 +1,14 @@
+gmsh cubes.geo -3 -optimize_netgen 8 > gmsh.log 2>&1 \
+&& nmeshimport --gmsh cubes.msh cubes.nmesh.h5 > nmesh.log 2>&1 \
+&& nmeshpp -i cubes.nmesh.h5 > nmeshpp.log 2>&1
+
+source ~/.bash_profile && nsim cubes.py > nsim.log 2>&1
+
+ncol cubes H_ext_2 \
+M_H1_2 M_S2_2 M_H3_2 M_S4_2 M_H5_2 M_S6_2 M_H7_2 M_S8_2 \
+M_H9_2 M_S10_2 M_H11_2 M_S12_2 M_H13_2 M_S14_2 M_H15_2 M_S16_2 \
+M_H17_2 M_S18_2 M_H19_2 M_S20_2 M_H21_2 M_S22_2 M_H23_2 M_S24_2 \
+M_H25_2 M_S26_2 M_H27_2 M_S28_2 M_H29_2 M_S30_2 M_H31_2 M_S32_2 \
+M_H33_2 M_S34_2 M_H35_2 M_S36_2 M_H37_2 M_S38_2 M_H39_2 M_S40_2 \
+M_H41_2 M_S42_2 M_H43_2 M_S44_2 M_H45_2 M_S46_2 M_H47_2 M_S48_2 \
+M_H49_2 M_S50_2 > ncol.txt
