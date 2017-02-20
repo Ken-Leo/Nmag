@@ -27,7 +27,7 @@ H_max = h_hard*1e3/(4*math.pi)  # oe to A/m
 print('H_max %f A/m' % H_max)
 
 cube_num = 1
-a_exchange = 9e-11
+a_exchange = 2.5e-10
 d_max = 3
 space_h = 0.05
 ms_gap = ms_soft - ms_hard
@@ -68,7 +68,6 @@ S2 = nmag.MagMaterial(name='S2',
 sim.load_mesh("%s"%mesh_file, [("H1", H1), ("S2", S2)], unit_length=SI(1e-9, "m"))
 # --------------------------------------------------------------------------- #
 
-
 # Hysteresis Apply Field List
 Hs = nmag.vector_set(direction=[0, 0, 1],
                      norm_list=[-1.0, -0.8, [], 0.0, 0.01, [], 1.0],
@@ -76,7 +75,10 @@ Hs = nmag.vector_set(direction=[0, 0, 1],
 # set initial magnetisation
 sim.set_m([0, 0, 1])
 sim.set_params(stopping_dm_dt=2*degrees_per_ns)
+
 # remember all mesh positions
+def distance(p1, p2):
+    return math.sqrt((p1[0]-p2[0])**2+(p1[1]-p2[1])**2+(p1[2]-p2[2])**2)
 class MeshPos():
     def __init__(self, position, sub_name, sub_index):
         self.sub_name = sub_name
@@ -114,6 +116,7 @@ for i in range(1, cube_num+1):
     subfield_sites = sim.get_subfield_sites(pos_field)
     subfield_positions = sim.get_subfield_positions(pos_field, pos_units=SI(1e-9, 'm'))
     for sub_index, (index, position) in enumerate(zip(subfield_sites, subfield_positions)):
+        index = index[0]
         m_position = mesh_positions[index].position
         # check
         for i in range(3):
@@ -127,9 +130,9 @@ print('Length of position : %d' % (len(mesh_positions)))
 print('Length of position on hard layer: %d' % (len(hard_positions)))
 print('Length of position on soft layer: %d' % (len(soft_positions)))
 # get the position map
-for  m_position in mesh_positions:
+for m_position in mesh_positions:
     m_pos = m_position.position
-    x, y, z = m_pos[0], m_pos[1], m_pos[2]
+    z = m_pos[2]
     find_positions = None
     if hard_h - d_max < z < hard_h + space_h/2:
         find_positions = soft_positions
@@ -139,26 +142,44 @@ for  m_position in mesh_positions:
         find_positions = []
     for find_index in find_positions:
         find_pos = mesh_positions[find_index].position
-        x_s, y_s, z_s = find_pos[0], find_pos[1], find_pos[2]
-        distance = math.sqrt((x-x_s)**2+(y-y_s)**2+(z-z_s)**2)
-        if distance < d_max:
+        p_d = distance(m_pos, find_pos)
+        if p_d < d_max:
             m_position.map_index.append(find_index)
+# list map count to 9
+for m_position in mesh_positions:
+    map_index = m_position.map_index
+    if len(map_index) > 9:
+        sorted(map_index, key=lambda m_i: distance(mesh_positions[m_i].position, m_position.position))
+        m_position.map_index = map_index[0:9]
 # print the position map
 for index, m_position in enumerate(mesh_positions):
     print('%d(%s) Map To: %s' % (index, str(m_position.position), str(m_position.map_index)))
-# get ecc
-mesh_index = 0
+
+# ----- start time ----
+start_time = time.time()
+last_stage_time = start_time
 j_ext_hard = numpy.zeros(3)
 j_ext_soft = numpy.zeros(3)
-def get_ecc(sim):
-    global mesh_index, j_ext_hard, j_ext_soft
-    print('Last stage %d with hard ecc %s' % (sim.stage-1, str(numpy.average(j_ext_hard, axis=0))))
-    print('Last stage %d with soft ecc %s' % (sim.stage-1, str(numpy.average(j_ext_soft, axis=0))))
-    H_ext = sim.get_subfield_average_siv('H_ext')
-    print('Set H_ext of stage %d with H_ext %s' % (sim.stage, str(H_ext)))
-    mesh_index = 0
+def my_save(sim):
+    # print and reset ext
+    global last_stage_time, j_ext_hard, j_ext_soft
+    print('Id %d with hard ecc %s' % (sim.id, str(numpy.average(j_ext_hard, axis=0))))
+    print('Id %d with soft ecc %s' % (sim.id, str(numpy.average(j_ext_soft, axis=0))))
     j_ext_hard = numpy.zeros(3)
     j_ext_soft = numpy.zeros(3)
+    # print last stage spend time
+    now_time = time.time()
+    use_time = (now_time - last_stage_time) / 60
+    last_stage_time = now_time
+    print('Id %d spend %f min, Begin to save' % (sim.stage, use_time))
+    # save all field
+    sim.save_data(fields='all')
+# start hysteresis loop by relax
+for hs in Hs:
+    # global mesh_index, j_ext_hard, j_ext_soft
+    H_ext = [0, 0, hs[2].value]
+    print('\nId %d with H_ext %s' % (sim.id, str(H_ext)))
+    mesh_index = 0
     def set_H(pos):
         z = pos[2]/1e-9
         global mesh_index, j_ext_hard, j_ext_soft
@@ -166,8 +187,11 @@ def get_ecc(sim):
         map_index = mesh_positions[mesh_index].map_index
         for m_index in map_index:
             m_position = mesh_positions[m_index]
-            m_v = sim.get_subfield('m_' + m_position.sub_name)[m_position.sub_index]
-            j_value += numpy.asarray(m_v)
+            m_v = sim.get_subfield('E_exch_' + m_position.sub_name)[m_position.sub_index]
+            m_w = sim.get_subfield('m_' + m_position.sub_name)[m_position.sub_index]
+            m_v = numpy.asarray(m_v)
+            m_w = numpy.asarray(m_w)
+            j_value += numpy.dot(m_v, m_w)
         if len(mesh_positions[mesh_index].map_index) > 0:
             j_value /= len(map_index)
         if hard_h - d_max < z < hard_h + space_h/2:
@@ -179,22 +203,9 @@ def get_ecc(sim):
         j_value += numpy.asarray(H_ext)
         # print('%d Set new H_ext of stage %d with new H_ext %s' % (set_H_ext_index, sim.stage, str(m_value)))
         mesh_index += 1
-        return j_value
+        return [0, 0, j_value[2]]
     sim.set_H_ext(set_H, unit=SI('A/m'))
-# start time
-start_time = time.time()
-last_stage_time = start_time
-def my_save(sim):
-    # print last stage spend time
-    global last_stage_time
-    now_time = time.time()
-    use_time = (now_time - last_stage_time) / 60
-    last_stage_time = now_time
-    print('Last stage spend %f min' % use_time)
-    # save all field
-    sim.save_data(fields='all')
-# start hysteresis loop
-sim.hysteresis(Hs, save=[(my_save, at('convergence'))], do=[(get_ecc, every('stage', 1) & at('stage_step', 0))])
+    sim.relax(save=[(my_save, at('convergence'))])
 # print simulate time
-use_time = (time.time() - start_time) / 60
-print('Use Time %f min' % use_time)
+total_use_time = (time.time() - start_time) / 60
+print('Use Time %f min' % total_use_time)
