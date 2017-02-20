@@ -27,12 +27,12 @@ H_max = h_hard*1e3/(4*math.pi)  # oe to A/m
 print('H_max %f A/m' % H_max)
 
 cube_num = 1
-a_exchange = 1.8e-11
+a_exchange = 9e-11
 d_max = 3
 space_h = 0.05
 ms_gap = ms_soft - ms_hard
-j_hard = math.sqrt(a_exchange/(ku_soft*(Area_constant/1e-9))/(2*math.pi*ms_gap))
-j_soft = math.sqrt(a_exchange/(ku_hard*(Area_constant/1e-9))/(2*math.pi*ms_gap))
+j_hard = a_exchange/(ku_soft*(Area_constant/1e-9))
+j_soft = a_exchange/(ku_hard*(Area_constant/1e-9))
 print('j_hard %f A/m' % j_hard)
 print('j_soft %f A/m' % j_soft)
 
@@ -76,36 +76,60 @@ Hs = nmag.vector_set(direction=[0, 0, 1],
 # set initial magnetisation
 sim.set_m([0, 0, 1])
 sim.set_params(stopping_dm_dt=2*degrees_per_ns)
-# remember all positions
-all_positions = []
-def remember_position(pos):
-    all_positions.append((pos[0]/1e-9, pos[1]/1e-9, pos[2]/1e-9))
-    return [0, 0, 0]
-sim.set_H_ext(remember_position, unit=SI('A/m'))
-print('Length of all position : %d' % (len(all_positions)))
-# remember hard layer and soft layer positions
+# remember all mesh positions
+class MeshPos():
+    def __init__(self, position, sub_name, sub_index):
+        self.sub_name = sub_name
+        self.sub_index = sub_index,
+        self.position = position
+        self.map_index = []
+all_positions = sim.get_subfield_positions('H_ext', pos_units=SI(1e-9, 'm'))
+# the meshing positions
+mesh_positions = [MeshPos(position, '', -1) for position in all_positions]
 hard_positions = []
 soft_positions = []
+# remember hard layer and soft layer positions
 for i in range(1, cube_num+1):
     hard_index = i*2-1
     soft_index = i*2
-    hard_name = 'M_H%d' % hard_index
-    soft_name = 'M_S%d' % soft_index
-    pos_index = 0
-    for pos in sim.get_subfield_positions(hard_name, pos_units=SI(1e-9, 'm')):
-        hard_positions.append((pos, hard_name, pos_index))
-        pos_index += 1
-    pos_index = 0
-    for pos in sim.get_subfield_positions(soft_name, pos_units=SI(1e-9, 'm')):
-        soft_positions.append((pos, soft_name, pos_index)) # remember x,y,z & mat_name & mat_index
-        pos_index += 1
+    hard_name = 'H%d' % hard_index
+    soft_name = 'S%d' % soft_index
+    # hard layer
+    pos_field = 'H_total_' + hard_name
+    subfield_sites = sim.get_subfield_sites(pos_field)
+    subfield_positions = sim.get_subfield_positions(pos_field, pos_units=SI(1e-9, 'm'))
+    for sub_index, (index, position) in enumerate(zip(subfield_sites, subfield_positions)):
+        index = index[0]
+        m_position = mesh_positions[index].position
+        # check
+        for i in range(3):
+            if m_position[i] != position[i]:
+                print('Position is not Matched! ', hard_name, sub_index, index)
+        # link
+        hard_positions.append(index)
+        mesh_positions[index].sub_name = hard_name
+        mesh_positions[index].sub_index = sub_index
+    # soft layer
+    pos_field = 'H_total_' + soft_name
+    subfield_sites = sim.get_subfield_sites(pos_field)
+    subfield_positions = sim.get_subfield_positions(pos_field, pos_units=SI(1e-9, 'm'))
+    for sub_index, (index, position) in enumerate(zip(subfield_sites, subfield_positions)):
+        m_position = mesh_positions[index].position
+        # check
+        for i in range(3):
+            if m_position[i] != position[i]:
+                print('Position is not Matched! ', soft_name, sub_index, index)
+        # link
+        soft_positions.append(index)
+        mesh_positions[index].sub_name = soft_name
+        mesh_positions[index].sub_index = sub_index
+print('Length of position : %d' % (len(mesh_positions)))
 print('Length of position on hard layer: %d' % (len(hard_positions)))
 print('Length of position on soft layer: %d' % (len(soft_positions)))
-map_positions = [[] for i in range(len(all_positions))]
 # get the position map
-i = 0
-for pos in all_positions:
-    x, y, z = pos[0], pos[1], pos[2]
+for  m_position in mesh_positions:
+    m_pos = m_position.position
+    x, y, z = m_pos[0], m_pos[1], m_pos[2]
     find_positions = None
     if hard_h - d_max < z < hard_h + space_h/2:
         find_positions = soft_positions
@@ -113,50 +137,53 @@ for pos in all_positions:
         find_positions = hard_positions
     else:
         find_positions = []
-    for find_pos in find_positions:
-        x_s, y_s, z_s = find_pos[0][0], find_pos[0][1], find_pos[0][2]
+    for find_index in find_positions:
+        find_pos = mesh_positions[find_index].position
+        x_s, y_s, z_s = find_pos[0], find_pos[1], find_pos[2]
         distance = math.sqrt((x-x_s)**2+(y-y_s)**2+(z-z_s)**2)
         if distance < d_max:
-            map_positions[i].append(find_pos)
-    i += 1
+            m_position.map_index.append(find_index)
 # print the position map
-i = 0
-for map_pos in map_positions:
-    print('%d(%s): %s' % (i, str(all_positions[i]), str(map_positions[i])))
-    i += 1
+for index, m_position in enumerate(mesh_positions):
+    print('%d(%s) Map To: %s' % (index, str(m_position.position), str(m_position.map_index)))
 # get ecc
-set_H_ext_index = 0
+mesh_index = 0
 j_ext_hard = numpy.zeros(3)
 j_ext_soft = numpy.zeros(3)
 def get_ecc(sim):
-    global set_H_ext_index, j_ext_hard, j_ext_soft
+    global mesh_index, j_ext_hard, j_ext_soft
     print('Last stage %d with hard ecc %s' % (sim.stage-1, str(numpy.average(j_ext_hard, axis=0))))
     print('Last stage %d with soft ecc %s' % (sim.stage-1, str(numpy.average(j_ext_soft, axis=0))))
     H_ext = sim.get_subfield_average_siv('H_ext')
     print('Set H_ext of stage %d with H_ext %s' % (sim.stage, str(H_ext)))
-    set_H_ext_index = 0
+    mesh_index = 0
     j_ext_hard = numpy.zeros(3)
     j_ext_soft = numpy.zeros(3)
     def set_H(pos):
         z = pos[2]/1e-9
-        global set_H_ext_index, j_ext_hard, j_ext_soft
-        m_value = numpy.zeros(3)
-        for m_pos in map_positions[set_H_ext_index]:
-            m_v = sim.get_subfield(m_pos[1])[m_pos[2]]
-            m_value += numpy.asarray(m_v)
-        if len(map_positions[set_H_ext_index]) > 0:
-            m_value /= len(map_positions[set_H_ext_index])
+        global mesh_index, j_ext_hard, j_ext_soft
+        j_value = numpy.zeros(3)
+        map_index = mesh_positions[mesh_index].map_index
+        for m_index in map_index:
+            m_position = mesh_positions[m_index]
+            m_v = sim.get_subfield('m_' + m_position.sub_name)[m_position.sub_index]
+            j_value += numpy.asarray(m_v)
+        if len(mesh_positions[mesh_index].map_index) > 0:
+            j_value /= len(map_index)
         if hard_h - d_max < z < hard_h + space_h/2:
-            m_value *= j_hard
-            j_ext_hard = numpy.row_stack((j_ext_hard, m_value))
+            j_value *= j_hard
+            j_ext_hard = numpy.row_stack((j_ext_hard, j_value))
         elif hard_h + space_h/2 < z < hard_h + space_h + d_max:
-            m_value *= j_soft
-            j_ext_soft = numpy.row_stack((j_ext_soft, m_value))
-        m_value += numpy.asarray(H_ext)
+            j_value *= j_soft
+            j_ext_soft = numpy.row_stack((j_ext_soft, j_value))
+        j_value += numpy.asarray(H_ext)
         # print('%d Set new H_ext of stage %d with new H_ext %s' % (set_H_ext_index, sim.stage, str(m_value)))
-        set_H_ext_index += 1
-        return m_value
+        mesh_index += 1
+        return j_value
     sim.set_H_ext(set_H, unit=SI('A/m'))
+# start time
+start_time = time.time()
+last_stage_time = start_time
 def my_save(sim):
     # print last stage spend time
     global last_stage_time
@@ -166,9 +193,6 @@ def my_save(sim):
     print('Last stage spend %f min' % use_time)
     # save all field
     sim.save_data(fields='all')
-# start time
-start_time = time.time()
-last_stage_time = start_time
 # start hysteresis loop
 sim.hysteresis(Hs, save=[(my_save, at('convergence'))], do=[(get_ecc, every('stage', 1) & at('stage_step', 0))])
 # print simulate time
