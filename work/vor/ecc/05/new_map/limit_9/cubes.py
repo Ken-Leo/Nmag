@@ -394,25 +394,18 @@ for m_position in mesh_positions:
         p_d = distance(m_pos, find_pos)
         if p_d < d_max:
             if find_name in m_position.map_index:
-                m_position.map_index[find_name].append(sub_index)
+                m_position.map_index[find_name].append((sub_index, find_index))
             else:
-                m_position.map_index[find_name] = [sub_index]
+                m_position.map_index[find_name] = [(sub_index, find_index)]
+# limit map count to 9
+for m_position in mesh_positions:
+    for (sub_name, map_index) in m_position.map_index.items():
+        if len(map_index) > 9:
+            sorted(map_index, key=lambda m_index: distance(mesh_positions[m_index[1]].position, m_position.position))
+            m_position.map_index[sub_name] = map_index[0:9]
 # print the position map
-# print the position map
-mesh_count = 0
-mesh_hard_count = 0
-mesh_soft_count = 0
 for index, m_position in enumerate(mesh_positions):
     print('%d %s on %s Map To: %s' % (index, str(m_position.position), m_position.sub_name, str(m_position.map_index)))
-    if len(m_position.map_index) > 0:
-        mesh_count += 1
-        if m_position.sub_name[0] == 'H':
-            mesh_hard_count += 1
-        elif m_position.sub_name[0] == 'S':
-            mesh_soft_count += 1
-print('Total position map rate is %d-%d: %f' % (mesh_count, len(mesh_positions), float(mesh_count)/len(mesh_positions)))
-print('Hard position map rate is %d-%d: %f' % (mesh_hard_count, len(hard_positions), float(mesh_hard_count)/len(hard_positions)))
-print('Soft position map rate is %d-%d: %f' % (mesh_soft_count, len(soft_positions), float(mesh_soft_count)/len(soft_positions)))
 
 # ----- start time ----
 start_time = time.time()
@@ -443,13 +436,13 @@ for hs in Hs:
         z = pos[2]/1e-9
         global mesh_index, j_ext_hard, j_ext_soft
         j_value = numpy.zeros(3)
-        for (sub_name, sub_index) in mesh_positions[mesh_index].map_index.items():
-            sub_exch = sim.get_subfield('E_exch_' + sub_name)
-            sub_m = sim.get_subfield('m_' + sub_name)
+        for (s_name, m_index) in mesh_positions[mesh_index].map_index.items():
+            sub_exch = sim.get_subfield('E_exch_' + s_name)
+            sub_m = sim.get_subfield('m_' + s_name)
             sub_value = numpy.zeros(3)
-            for sub_i in sub_index:
-                sub_value += numpy.dot(sub_exch[sub_i], sub_m[sub_i])
-            sub_value /= len(sub_index)
+            for map_i in m_index:
+                sub_value += numpy.dot(sub_exch[map_i[0]], sub_m[map_i[0]])
+            sub_value /= len(m_index)
             j_value += sub_value
         if len(mesh_positions[mesh_index].map_index) > 0:
             j_value /= len(mesh_positions[mesh_index].map_index)

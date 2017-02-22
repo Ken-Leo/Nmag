@@ -398,21 +398,8 @@ for m_position in mesh_positions:
             else:
                 m_position.map_index[find_name] = [sub_index]
 # print the position map
-# print the position map
-mesh_count = 0
-mesh_hard_count = 0
-mesh_soft_count = 0
 for index, m_position in enumerate(mesh_positions):
     print('%d %s on %s Map To: %s' % (index, str(m_position.position), m_position.sub_name, str(m_position.map_index)))
-    if len(m_position.map_index) > 0:
-        mesh_count += 1
-        if m_position.sub_name[0] == 'H':
-            mesh_hard_count += 1
-        elif m_position.sub_name[0] == 'S':
-            mesh_soft_count += 1
-print('Total position map rate is %d-%d: %f' % (mesh_count, len(mesh_positions), float(mesh_count)/len(mesh_positions)))
-print('Hard position map rate is %d-%d: %f' % (mesh_hard_count, len(hard_positions), float(mesh_hard_count)/len(hard_positions)))
-print('Soft position map rate is %d-%d: %f' % (mesh_soft_count, len(soft_positions), float(mesh_soft_count)/len(soft_positions)))
 
 # ----- start time ----
 start_time = time.time()
