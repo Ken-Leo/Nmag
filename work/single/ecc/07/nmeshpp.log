@@ -1,0 +1,12 @@
+INFO:root:Reading data from nmesh file 'cubes.nmesh.h5'
+====== Info output: ========================================================
+    3-dimensional mesh
+ 2795 volume elements (3d)
+ 1216 surface elements (2d)
+  825 points
+    2 simplex regions ([1, 2])
+    3 point regions ([-1, 1, 2])
+    3 region volumes ([0.0, 196.0000000000003, 294.0])
+  612 boundary points (-> BEM size<=    3MB)
+    0 periodic points (mirage=0, total=0)
+a0: average=1.131380, std=0.378595, min=0.360108, max=2.624567
