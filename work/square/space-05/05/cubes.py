@@ -311,7 +311,7 @@ Hs = nmag.vector_set(direction=[0, 0, 1],
                      units=H_max*SI('A/m'))
 # set initial magnetisation
 sim.set_m([0, 0, 1])
-sim.set_params(stopping_dm_dt=10*degrees_per_ns)
+sim.set_params(stopping_dm_dt=12*degrees_per_ns)
 # start time
 start_time = time.time()
 last_stage_time = start_time
