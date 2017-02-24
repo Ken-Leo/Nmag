@@ -1,0 +1,2139 @@
+       nsim:2017-02-23 18:51:45,710   setup.py  471    INFO Nsim 0.2.1
+       nsim:2017-02-23 18:51:45,710   setup.py  472    INFO Runid is 'cubes'
+       nsim:2017-02-23 18:51:45,710   setup.py  473    INFO Using 1 CPUs
+ku_soft:571000.000000 J/m^3
+h_hard:27692.307692 oe
+h_soft:5710.000000 oe
+H_max 2203683.827426 A/m
+       nmag:2017-02-23 18:51:45,818 simulation_core.py  141    INFO Simulation(name=cubes) object created
+       nmag:2017-02-23 18:51:45,818    main.py  859    INFO Versions:
+	     nsim version = 0.2.1
+	     release date = Fri Jan 13 09:38:20 2012
+	          VC info = 467:d7c316deb156
+	distribution mode = all-source
+	distribution date = Fri Jan 13 09:38:22 GMT 2012
+       nmag:2017-02-23 18:51:45,819    main.py  860    INFO Paths:
+	nsimpath = /home/nmag/nmag-0.2.1/nsim/interface/nsim
+	nmagpath = /home/nmag/nmag-0.2.1/nsim/interface/nmag
+       nmag:2017-02-23 18:51:45,820    main.py  472    INFO Created new Material:
+ Material 'H1'
+                      name = H1
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1b9b0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,821    main.py  472    INFO Created new Material:
+ Material 'S2'
+                      name = S2
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1baa0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,822    main.py  472    INFO Created new Material:
+ Material 'H3'
+                      name = H3
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1bb90>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,823    main.py  472    INFO Created new Material:
+ Material 'S4'
+                      name = S4
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1bc80>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,824    main.py  472    INFO Created new Material:
+ Material 'H5'
+                      name = H5
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1bd70>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,825    main.py  472    INFO Created new Material:
+ Material 'S6'
+                      name = S6
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1be60>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,826    main.py  472    INFO Created new Material:
+ Material 'H7'
+                      name = H7
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1bf50>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,827    main.py  472    INFO Created new Material:
+ Material 'S8'
+                      name = S8
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e0c8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,827    main.py  472    INFO Created new Material:
+ Material 'H9'
+                      name = H9
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e1b8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,828    main.py  472    INFO Created new Material:
+ Material 'S10'
+                      name = S10
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e2a8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,829    main.py  472    INFO Created new Material:
+ Material 'H11'
+                      name = H11
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e398>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,830    main.py  472    INFO Created new Material:
+ Material 'S12'
+                      name = S12
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e488>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,831    main.py  472    INFO Created new Material:
+ Material 'H13'
+                      name = H13
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e578>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,832    main.py  472    INFO Created new Material:
+ Material 'S14'
+                      name = S14
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e668>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,833    main.py  472    INFO Created new Material:
+ Material 'H15'
+                      name = H15
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e758>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,834    main.py  472    INFO Created new Material:
+ Material 'S16'
+                      name = S16
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e848>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,834    main.py  472    INFO Created new Material:
+ Material 'H17'
+                      name = H17
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1e938>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,835    main.py  472    INFO Created new Material:
+ Material 'S18'
+                      name = S18
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1ea28>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,836    main.py  472    INFO Created new Material:
+ Material 'H19'
+                      name = H19
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1eb18>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,837    main.py  472    INFO Created new Material:
+ Material 'S20'
+                      name = S20
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1ec08>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,838    main.py  472    INFO Created new Material:
+ Material 'H21'
+                      name = H21
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1ecf8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,839    main.py  472    INFO Created new Material:
+ Material 'S22'
+                      name = S22
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1ede8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,840    main.py  472    INFO Created new Material:
+ Material 'H23'
+                      name = H23
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d1eed8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,840    main.py  472    INFO Created new Material:
+ Material 'S24'
+                      name = S24
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22050>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,841    main.py  472    INFO Created new Material:
+ Material 'H25'
+                      name = H25
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22140>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,842    main.py  472    INFO Created new Material:
+ Material 'S26'
+                      name = S26
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22230>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,843    main.py  472    INFO Created new Material:
+ Material 'H27'
+                      name = H27
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22320>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,844    main.py  472    INFO Created new Material:
+ Material 'S28'
+                      name = S28
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22410>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,845    main.py  472    INFO Created new Material:
+ Material 'H29'
+                      name = H29
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22500>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,846    main.py  472    INFO Created new Material:
+ Material 'S30'
+                      name = S30
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d225f0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,846    main.py  472    INFO Created new Material:
+ Material 'H31'
+                      name = H31
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d226e0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,847    main.py  472    INFO Created new Material:
+ Material 'S32'
+                      name = S32
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d227d0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,848    main.py  472    INFO Created new Material:
+ Material 'H33'
+                      name = H33
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d228c0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,849    main.py  472    INFO Created new Material:
+ Material 'S34'
+                      name = S34
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d229b0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,850    main.py  472    INFO Created new Material:
+ Material 'H35'
+                      name = H35
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22aa0>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,851    main.py  472    INFO Created new Material:
+ Material 'S36'
+                      name = S36
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22b90>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,852    main.py  472    INFO Created new Material:
+ Material 'H37'
+                      name = H37
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22c80>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,853    main.py  472    INFO Created new Material:
+ Material 'S38'
+                      name = S38
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22d70>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,853    main.py  472    INFO Created new Material:
+ Material 'H39'
+                      name = H39
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22e60>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,854    main.py  472    INFO Created new Material:
+ Material 'S40'
+                      name = S40
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d22f50>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,855    main.py  472    INFO Created new Material:
+ Material 'H41'
+                      name = H41
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d280c8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,856    main.py  472    INFO Created new Material:
+ Material 'S42'
+                      name = S42
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d281b8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,857    main.py  472    INFO Created new Material:
+ Material 'H43'
+                      name = H43
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d282a8>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,858    main.py  472    INFO Created new Material:
+ Material 'S44'
+                      name = S44
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28398>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,858    main.py  472    INFO Created new Material:
+ Material 'H45'
+                      name = H45
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28488>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,859    main.py  472    INFO Created new Material:
+ Material 'S46'
+                      name = S46
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28578>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,860    main.py  472    INFO Created new Material:
+ Material 'H47'
+                      name = H47
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28668>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,861    main.py  472    INFO Created new Material:
+ Material 'S48'
+                      name = S48
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28758>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,862    main.py  472    INFO Created new Material:
+ Material 'H49'
+                      name = H49
+                        Ms = <SI: 1.3e+06  A / m >
+         exchange_coupling = <SI: 1.2e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28848>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 7.63548e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,862    main.py  472    INFO Created new Material:
+ Material 'S50'
+                      name = S50
+                        Ms = <SI: 2e+06  A / m >
+         exchange_coupling = <SI: 1e-11  m kg / s^2 >
+                anisotropy = <function f at 0x2d28938>
+          anisotropy_order = 2
+               llg_gamma_G = <SI: 221017  m / s A >
+               llg_damping = 1.0
+   llg_normalisationfactor = <SI: 1e+11  / s >
+             do_precession = True
+          llg_polarisation = 0.0
+                    llg_xi = 0.0
+            thermal_factor = <SI: 4.96306e-29  m s A^2 / K >
+            extended_print = False
+ 
+       nmag:2017-02-23 18:51:45,863    main.py 1164    INFO Reading mesh from cubes.nmesh.h5, unit_length is <SI: 1e-09  m >. 
+nmesh.ocaml:2017-02-23 18:51:45,952    INFO Computing mesh connectivity data
+nmesh.ocaml:2017-02-23 18:51:45,989    INFO Mesh nodes: 2798,  simplices: 8067 
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'H1' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'S2' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'H3' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'S4' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'H5' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'S6' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,020    main.py 1225    INFO Adding region 'H7' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S8' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H9' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S10' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H11' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S12' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H13' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S14' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H15' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S16' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H17' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S18' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H19' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S20' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H21' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S22' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H23' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S24' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'H25' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,021    main.py 1225    INFO Adding region 'S26' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H27' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S28' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H29' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S30' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H31' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S32' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H33' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S34' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H35' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S36' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H37' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S38' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H39' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S40' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H41' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S42' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H43' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S44' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'H45' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,022    main.py 1225    INFO Adding region 'S46' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,023    main.py 1225    INFO Adding region 'H47' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,023    main.py 1225    INFO Adding region 'S48' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,023    main.py 1225    INFO Adding region 'H49' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,023    main.py 1225    INFO Adding region 'S50' to 'cubes' simulation object
+       nmag:2017-02-23 18:51:46,023 nmag_lam.py   97    INFO properties_by_region: [(-1, ['outer']), (0, ['0']), (1, ['1', 'H1', 'magnetic', 'material']), (2, ['2', 'S2', 'magnetic', 'material']), (3, ['3', 'H3', 'magnetic', 'material']), (4, ['4', 'S4', 'magnetic', 'material']), (5, ['5', 'H5', 'magnetic', 'material']), (6, ['6', 'S6', 'magnetic', 'material']), (7, ['7', 'H7', 'magnetic', 'material']), (8, ['8', 'S8', 'magnetic', 'material']), (9, ['9', 'H9', 'magnetic', 'material']), (10, ['10', 'S10', 'magnetic', 'material']), (11, ['11', 'H11', 'magnetic', 'material']), (12, ['12', 'S12', 'magnetic', 'material']), (13, ['13', 'H13', 'magnetic', 'material']), (14, ['14', 'S14', 'magnetic', 'material']), (15, ['15', 'H15', 'magnetic', 'material']), (16, ['16', 'S16', 'magnetic', 'material']), (17, ['17', 'H17', 'magnetic', 'material']), (18, ['18', 'S18', 'magnetic', 'material']), (19, ['19', 'H19', 'magnetic', 'material']), (20, ['20', 'S20', 'magnetic', 'material']), (21, ['21', 'H21', 'magnetic', 'material']), (22, ['22', 'S22', 'magnetic', 'material']), (23, ['23', 'H23', 'magnetic', 'material']), (24, ['24', 'S24', 'magnetic', 'material']), (25, ['25', 'H25', 'magnetic', 'material']), (26, ['26', 'S26', 'magnetic', 'material']), (27, ['27', 'H27', 'magnetic', 'material']), (28, ['28', 'S28', 'magnetic', 'material']), (29, ['29', 'H29', 'magnetic', 'material']), (30, ['30', 'S30', 'magnetic', 'material']), (31, ['31', 'H31', 'magnetic', 'material']), (32, ['32', 'S32', 'magnetic', 'material']), (33, ['33', 'H33', 'magnetic', 'material']), (34, ['34', 'S34', 'magnetic', 'material']), (35, ['35', 'H35', 'magnetic', 'material']), (36, ['36', 'S36', 'magnetic', 'material']), (37, ['37', 'H37', 'magnetic', 'material']), (38, ['38', 'S38', 'magnetic', 'material']), (39, ['39', 'H39', 'magnetic', 'material']), (40, ['40', 'S40', 'magnetic', 'material']), (41, ['41', 'H41', 'magnetic', 'material']), (42, ['42', 'S42', 'magnetic', 'material']), (43, ['43', 'H43', 'magnetic', 'material']), (44, ['44', 'S44', 'magnetic', 'material']), (45, ['45', 'H45', 'magnetic', 'material']), (46, ['46', 'S46', 'magnetic', 'material']), (47, ['47', 'H47', 'magnetic', 'material']), (48, ['48', 'S48', 'magnetic', 'material']), (49, ['49', 'H49', 'magnetic', 'material']), (50, ['50', 'S50', 'magnetic', 'material'])]
+       nmag:2017-02-23 18:51:46,023 nmag_lam.py  189    INFO Processing material 'H1'
+       nmag:2017-02-23 18:51:46,023 nmag_lam.py  189    INFO Processing material 'S2'
+       nmag:2017-02-23 18:51:46,024 nmag_lam.py  189    INFO Processing material 'H3'
+       nmag:2017-02-23 18:51:46,024 nmag_lam.py  189    INFO Processing material 'S4'
+       nmag:2017-02-23 18:51:46,024 nmag_lam.py  189    INFO Processing material 'H5'
+       nmag:2017-02-23 18:51:46,025 nmag_lam.py  189    INFO Processing material 'S6'
+       nmag:2017-02-23 18:51:46,025 nmag_lam.py  189    INFO Processing material 'H7'
+       nmag:2017-02-23 18:51:46,025 nmag_lam.py  189    INFO Processing material 'S8'
+       nmag:2017-02-23 18:51:46,026 nmag_lam.py  189    INFO Processing material 'H9'
+       nmag:2017-02-23 18:51:46,026 nmag_lam.py  189    INFO Processing material 'S10'
+       nmag:2017-02-23 18:51:46,027 nmag_lam.py  189    INFO Processing material 'H11'
+       nmag:2017-02-23 18:51:46,027 nmag_lam.py  189    INFO Processing material 'S12'
+       nmag:2017-02-23 18:51:46,027 nmag_lam.py  189    INFO Processing material 'H13'
+       nmag:2017-02-23 18:51:46,028 nmag_lam.py  189    INFO Processing material 'S14'
+       nmag:2017-02-23 18:51:46,028 nmag_lam.py  189    INFO Processing material 'H15'
+       nmag:2017-02-23 18:51:46,028 nmag_lam.py  189    INFO Processing material 'S16'
+       nmag:2017-02-23 18:51:46,029 nmag_lam.py  189    INFO Processing material 'H17'
+       nmag:2017-02-23 18:51:46,029 nmag_lam.py  189    INFO Processing material 'S18'
+       nmag:2017-02-23 18:51:46,029 nmag_lam.py  189    INFO Processing material 'H19'
+       nmag:2017-02-23 18:51:46,030 nmag_lam.py  189    INFO Processing material 'S20'
+       nmag:2017-02-23 18:51:46,030 nmag_lam.py  189    INFO Processing material 'H21'
+       nmag:2017-02-23 18:51:46,030 nmag_lam.py  189    INFO Processing material 'S22'
+       nmag:2017-02-23 18:51:46,031 nmag_lam.py  189    INFO Processing material 'H23'
+       nmag:2017-02-23 18:51:46,031 nmag_lam.py  189    INFO Processing material 'S24'
+       nmag:2017-02-23 18:51:46,031 nmag_lam.py  189    INFO Processing material 'H25'
+       nmag:2017-02-23 18:51:46,032 nmag_lam.py  189    INFO Processing material 'S26'
+       nmag:2017-02-23 18:51:46,032 nmag_lam.py  189    INFO Processing material 'H27'
+       nmag:2017-02-23 18:51:46,032 nmag_lam.py  189    INFO Processing material 'S28'
+       nmag:2017-02-23 18:51:46,033 nmag_lam.py  189    INFO Processing material 'H29'
+       nmag:2017-02-23 18:51:46,033 nmag_lam.py  189    INFO Processing material 'S30'
+       nmag:2017-02-23 18:51:46,033 nmag_lam.py  189    INFO Processing material 'H31'
+       nmag:2017-02-23 18:51:46,034 nmag_lam.py  189    INFO Processing material 'S32'
+       nmag:2017-02-23 18:51:46,034 nmag_lam.py  189    INFO Processing material 'H33'
+       nmag:2017-02-23 18:51:46,034 nmag_lam.py  189    INFO Processing material 'S34'
+       nmag:2017-02-23 18:51:46,035 nmag_lam.py  189    INFO Processing material 'H35'
+       nmag:2017-02-23 18:51:46,035 nmag_lam.py  189    INFO Processing material 'S36'
+       nmag:2017-02-23 18:51:46,036 nmag_lam.py  189    INFO Processing material 'H37'
+       nmag:2017-02-23 18:51:46,036 nmag_lam.py  189    INFO Processing material 'S38'
+       nmag:2017-02-23 18:51:46,036 nmag_lam.py  189    INFO Processing material 'H39'
+       nmag:2017-02-23 18:51:46,037 nmag_lam.py  189    INFO Processing material 'S40'
+       nmag:2017-02-23 18:51:46,037 nmag_lam.py  189    INFO Processing material 'H41'
+       nmag:2017-02-23 18:51:46,037 nmag_lam.py  189    INFO Processing material 'S42'
+       nmag:2017-02-23 18:51:46,038 nmag_lam.py  189    INFO Processing material 'H43'
+       nmag:2017-02-23 18:51:46,038 nmag_lam.py  189    INFO Processing material 'S44'
+       nmag:2017-02-23 18:51:46,038 nmag_lam.py  189    INFO Processing material 'H45'
+       nmag:2017-02-23 18:51:46,039 nmag_lam.py  189    INFO Processing material 'S46'
+       nmag:2017-02-23 18:51:46,039 nmag_lam.py  189    INFO Processing material 'H47'
+       nmag:2017-02-23 18:51:46,039 nmag_lam.py  189    INFO Processing material 'S48'
+       nmag:2017-02-23 18:51:46,040 nmag_lam.py  189    INFO Processing material 'H49'
+       nmag:2017-02-23 18:51:46,040 nmag_lam.py  189    INFO Processing material 'S50'
+ nfem.ocaml:2017-02-23 18:51:46,041    INFO Associating elements to mesh ('m')
+ nfem.ocaml:2017-02-23 18:51:46,142    INFO Associating elements to mesh ('E')
+ nfem.ocaml:2017-02-23 18:51:46,197    INFO Associating elements to mesh ('H_demag')
+ nfem.ocaml:2017-02-23 18:51:46,304    INFO Associating elements to mesh ('scalar')
+ nfem.ocaml:2017-02-23 18:51:46,365    INFO Assembling site-wise offsets for fields [|"m"|]
+ nfem.ocaml:2017-02-23 18:51:46,533    INFO Compiling linalg_machine
+ nfem.ocaml:2017-02-23 18:51:47,555    INFO Starting to build dense matrices (BEM)
+ nfem.ocaml:2017-02-23 18:51:51,360    INFO Populating BEM took 3.805178 seconds
+ nfem.ocaml:2017-02-23 18:51:51,484    INFO Creating site-wise-executor 'local_M_from_m'
+ nfem.ocaml:2017-02-23 18:51:51,484    INFO Assembling site-wise offsets for fields [|"m"; "M"|]
+ nfem.ocaml:2017-02-23 18:51:51,524    INFO Creating site-wise-executor 'local_E_total'
+ nfem.ocaml:2017-02-23 18:51:51,524    INFO Assembling site-wise offsets for fields [|"m"; "E_anis"; "E_ext"; "E_demag"; "E_exch"; "E_total"; "H_ext"; "H_demag"; "H_exch"; "H_total"|]
+ nfem.ocaml:2017-02-23 18:51:51,651    INFO Creating site-wise-executor 'local_H_total'
+ nfem.ocaml:2017-02-23 18:51:51,651    INFO Assembling site-wise offsets for fields [|"H_total"; "H_exch"; "H_ext"; "H_anis"; "H_demag"|]
+ nfem.ocaml:2017-02-23 18:51:51,733    INFO Creating site-wise-executor 'local_correct_m_lengths'
+ nfem.ocaml:2017-02-23 18:51:51,733    INFO Assembling site-wise offsets for fields [|"m"|]
+ nfem.ocaml:2017-02-23 18:51:51,760    INFO Creating site-wise-executor 'local_E_anis'
+ nfem.ocaml:2017-02-23 18:51:51,760    INFO Assembling site-wise offsets for fields [|"E_anis"; "m"|]
+ nfem.ocaml:2017-02-23 18:51:51,781    INFO Creating site-wise-executor 'local_H_anis'
+ nfem.ocaml:2017-02-23 18:51:51,781    INFO Assembling site-wise offsets for fields [|"H_anis"; "m"|]
+ nfem.ocaml:2017-02-23 18:51:51,826    INFO Creating site-wise-executor 'local_dmdt'
+ nfem.ocaml:2017-02-23 18:51:51,826    INFO Assembling site-wise offsets for fields [|"m"; "dmdt"; "H_total"; "pin"|]
+ nfem.ocaml:2017-02-23 18:51:51,922    INFO Assembling site-wise offsets for fields [|"m"|]
+       nmag:2017-02-23 18:51:51,944    main.py 1101    INFO Simulation(name=cubes).set_params(): stopping_dm_dt=<SI: 1.74533e+08  / s >
+       nmag:2017-02-23 18:51:51,946 hysteresis.py  441    INFO Hysteresis loop: starting a new simulation.
+       nmag:2017-02-23 18:51:51,946 hysteresis.py  443    INFO Hysteresis loop: check file 'cubes_progress.txt' for progress data
+       nmag:2017-02-23 18:51:51,946 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 -2.20368e+06]<A/m>
+ nfem.ocaml:2017-02-23 18:51:53,867    INFO Making Jacobi MX: 8394 x 8394 ([|8394|] x [|8394|])
+       nmag:2017-02-23 18:51:55,725 hysteresis.py   40    INFO it 5, time <3.55591e-14s>; stage 1; H_ext=[0 0 -2.20368e+06]<A/m>
+       nmag:2017-02-23 18:52:23,680 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=-1,step=1510.
+============================================================================
+ID=-1 |        Step=1510 |       Time=78.19 ps |  Last step size=0.78 ps  | 
+      |       Stage=1    | Stage-step=1510     |      Stage-time=78.19 ps | 
+      | Convergence=True |  Stage-end=True     | Exit hysteresis=False    | 
+============================================================================
+Set new H_ext of stage 1 with H_ext [0.0, 0.0, -2203683.8274262417]
+Last stage spend 0.528956 min
+       nmag:2017-02-23 18:52:23,682    main.py 2593    INFO save_data(): id->id+1=0, fields=all 
+/home/nmag/nmag-0.2.1/lib/python2.7/site-packages/tables/table.py:742: PerformanceWarning: table ``/mesh/dofsites`` is exceeding the recommended maximum number of columns (512); be ready to see PyTables asking for *lots* of memory and possibly slow I/O
+  PerformanceWarning )
+       nmag:2017-02-23 18:52:29,089    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:52:29,089 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 -1.76295e+06]<A/m>
+       nmag:2017-02-23 18:52:32,135 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=0,step=1595.
+===========================================================================
+ID=0 |        Step=1595 |       Time=97.25 ps |  Last step size=0.66 ps  | 
+     |       Stage=2    | Stage-step=85       |      Stage-time=19.06 ps | 
+     | Convergence=True |  Stage-end=True     | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 2 with H_ext [0.0, 0.0, -1762947.0619409934]
+Last stage spend 0.140920 min
+       nmag:2017-02-23 18:52:32,137    main.py 2593    INFO save_data(): id->id+1=1, fields=all 
+       nmag:2017-02-23 18:52:33,547    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:52:33,548 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 -1.32221e+06]<A/m>
+       nmag:2017-02-23 18:52:36,691 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=1,step=1690.
+==========================================================================
+ID=1 |        Step=1690 |       Time=0.12 ns |  Last step size=0.68 ps  | 
+     |       Stage=3    | Stage-step=95      |      Stage-time=23.29 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 3 with H_ext [0.0, 0.0, -1322210.296455745]
+Last stage spend 0.075940 min
+       nmag:2017-02-23 18:52:36,694    main.py 2593    INFO save_data(): id->id+1=2, fields=all 
+       nmag:2017-02-23 18:52:38,109    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:52:38,110 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 -881474]<A/m>
+       nmag:2017-02-23 18:52:41,647 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=2,step=1810.
+==========================================================================
+ID=2 |        Step=1810 |       Time=0.16 ns |  Last step size=1.02 ps  | 
+     |       Stage=4    | Stage-step=120     |      Stage-time=40.10 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 4 with H_ext [0.0, 0.0, -881473.5309704967]
+Last stage spend 0.082591 min
+       nmag:2017-02-23 18:52:41,649    main.py 2593    INFO save_data(): id->id+1=3, fields=all 
+       nmag:2017-02-23 18:52:43,134    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:52:43,135 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 -440737]<A/m>
+       nmag:2017-02-23 18:52:47,758 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=3,step=1980.
+==========================================================================
+ID=3 |        Step=1980 |       Time=0.26 ns |  Last step size=1.75 ps  | 
+     |       Stage=5    | Stage-step=170     |      Stage-time=99.67 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 5 with H_ext [0.0, 0.0, -440736.76548524876]
+Last stage spend 0.101832 min
+       nmag:2017-02-23 18:52:47,759    main.py 2593    INFO save_data(): id->id+1=4, fields=all 
+       nmag:2017-02-23 18:52:49,333    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:52:49,334 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 0]<A/m>
+       nmag:2017-02-23 18:52:57,415 hysteresis.py   40    INFO it 2155, time <6.68206e-11s>; stage 6; H_ext=[0 0 0]<A/m>
+       nmag:2017-02-23 18:53:15,072 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=4,step=2575.
+=========================================================================
+ID=4 |        Step=2575 |       Time=0.53 ns |  Last step size=1.41 ps | 
+     |       Stage=6    | Stage-step=595     |      Stage-time=0.27 ns | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+=========================================================================
+Set new H_ext of stage 6 with H_ext [0.0, 0.0, 0.0]
+Last stage spend 0.455239 min
+       nmag:2017-02-23 18:53:15,073    main.py 2593    INFO save_data(): id->id+1=5, fields=all 
+       nmag:2017-02-23 18:53:16,440    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:16,441 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 22036.8]<A/m>
+       nmag:2017-02-23 18:53:19,191 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=5,step=2635.
+==========================================================================
+ID=5 |        Step=2635 |       Time=0.58 ns |  Last step size=1.68 ps  | 
+     |       Stage=7    | Stage-step=60      |      Stage-time=48.48 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 7 with H_ext [0.0, 0.0, 22036.838274262405]
+Last stage spend 0.068656 min
+       nmag:2017-02-23 18:53:19,193    main.py 2593    INFO save_data(): id->id+1=6, fields=all 
+       nmag:2017-02-23 18:53:20,571    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:20,571 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 44073.7]<A/m>
+       nmag:2017-02-23 18:53:23,334 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=6,step=2695.
+==========================================================================
+ID=6 |        Step=2695 |       Time=0.63 ns |  Last step size=1.71 ps  | 
+     |       Stage=8    | Stage-step=60      |      Stage-time=49.27 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 8 with H_ext [0.0, 0.0, 44073.67654852481]
+Last stage spend 0.069039 min
+       nmag:2017-02-23 18:53:23,335    main.py 2593    INFO save_data(): id->id+1=7, fields=all 
+       nmag:2017-02-23 18:53:24,707    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:24,708 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 66110.5]<A/m>
+       nmag:2017-02-23 18:53:27,575 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=7,step=2760.
+==========================================================================
+ID=7 |        Step=2760 |       Time=0.68 ns |  Last step size=1.70 ps  | 
+     |       Stage=9    | Stage-step=65      |      Stage-time=57.67 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 9 with H_ext [0.0, 0.0, 66110.51482278726]
+Last stage spend 0.070696 min
+       nmag:2017-02-23 18:53:27,577    main.py 2593    INFO save_data(): id->id+1=8, fields=all 
+       nmag:2017-02-23 18:53:28,953    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:28,954 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 88147.4]<A/m>
+       nmag:2017-02-23 18:53:31,840 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=8,step=2825.
+==========================================================================
+ID=8 |        Step=2825 |       Time=0.74 ns |  Last step size=1.68 ps  | 
+     |       Stage=10   | Stage-step=65      |      Stage-time=57.31 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 10 with H_ext [0.0, 0.0, 88147.35309704962]
+Last stage spend 0.071072 min
+       nmag:2017-02-23 18:53:31,841    main.py 2593    INFO save_data(): id->id+1=9, fields=all 
+       nmag:2017-02-23 18:53:33,237    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:33,238 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 110184]<A/m>
+       nmag:2017-02-23 18:53:36,252 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=9,step=2895.
+==========================================================================
+ID=9 |        Step=2895 |       Time=0.81 ns |  Last step size=1.86 ps  | 
+     |       Stage=11   | Stage-step=70      |      Stage-time=66.70 ps | 
+     | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+==========================================================================
+Set new H_ext of stage 11 with H_ext [0.0, 0.0, 110184.19137131209]
+Last stage spend 0.073532 min
+       nmag:2017-02-23 18:53:36,253    main.py 2593    INFO save_data(): id->id+1=10, fields=all 
+       nmag:2017-02-23 18:53:37,776    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:37,777 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 132221]<A/m>
+       nmag:2017-02-23 18:53:40,849 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=10,step=2970.
+===========================================================================
+ID=10 |        Step=2970 |       Time=0.88 ns |  Last step size=1.81 ps  | 
+      |       Stage=12   | Stage-step=75      |      Stage-time=76.49 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 12 with H_ext [0.0, 0.0, 132221.0296455745]
+Last stage spend 0.076621 min
+       nmag:2017-02-23 18:53:40,850    main.py 2593    INFO save_data(): id->id+1=11, fields=all 
+       nmag:2017-02-23 18:53:42,242    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:42,242 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 154258]<A/m>
+       nmag:2017-02-23 18:53:45,511 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=11,step=3055.
+===========================================================================
+ID=11 |        Step=3055 |       Time=0.98 ns |  Last step size=1.72 ps  | 
+      |       Stage=13   | Stage-step=85      |      Stage-time=91.70 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 13 with H_ext [0.0, 0.0, 154257.8679198369]
+Last stage spend 0.077704 min
+       nmag:2017-02-23 18:53:45,512    main.py 2593    INFO save_data(): id->id+1=12, fields=all 
+       nmag:2017-02-23 18:53:46,877    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:46,877 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 176295]<A/m>
+       nmag:2017-02-23 18:53:50,849 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=12,step=3170.
+==========================================================================
+ID=12 |        Step=3170 |       Time=1.12 ns |  Last step size=1.84 ps | 
+      |       Stage=14   | Stage-step=115     |      Stage-time=0.15 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 14 with H_ext [0.0, 0.0, 176294.70619409924]
+Last stage spend 0.088955 min
+       nmag:2017-02-23 18:53:50,850    main.py 2593    INFO save_data(): id->id+1=13, fields=all 
+       nmag:2017-02-23 18:53:52,324    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:53:52,325 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 198332]<A/m>
+       nmag:2017-02-23 18:53:58,083 hysteresis.py   40    INFO it 3290, time <1.54452e-10s>; stage 15; H_ext=[0 0 198332]<A/m>
+       nmag:2017-02-23 18:55:02,875 hysteresis.py   40    INFO it 4320, time <1.10073e-09s>; stage 15; H_ext=[0 0 198332]<A/m>
+       nmag:2017-02-23 18:55:05,864 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=13,step=4445.
+==========================================================================
+ID=13 |        Step=4445 |       Time=2.46 ns |  Last step size=1.91 ps | 
+      |       Stage=15   | Stage-step=1275    |      Stage-time=1.33 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 15 with H_ext [0.0, 0.0, 198331.54446836203]
+Last stage spend 1.250276 min
+       nmag:2017-02-23 18:55:05,866    main.py 2593    INFO save_data(): id->id+1=14, fields=all 
+       nmag:2017-02-23 18:55:07,296    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:07,297 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 220368]<A/m>
+       nmag:2017-02-23 18:55:13,170 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=14,step=4670.
+==========================================================================
+ID=14 |        Step=4670 |       Time=2.77 ns |  Last step size=1.59 ps | 
+      |       Stage=16   | Stage-step=225     |      Stage-time=0.31 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 16 with H_ext [0.0, 0.0, 220368.38274262418]
+Last stage spend 0.121741 min
+       nmag:2017-02-23 18:55:13,171    main.py 2593    INFO save_data(): id->id+1=15, fields=all 
+       nmag:2017-02-23 18:55:14,688    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:14,688 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 242405]<A/m>
+       nmag:2017-02-23 18:55:45,179 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=15,step=5215.
+==========================================================================
+ID=15 |        Step=5215 |       Time=3.27 ns |  Last step size=2.15 ps | 
+      |       Stage=17   | Stage-step=545     |      Stage-time=0.50 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 17 with H_ext [0.0, 0.0, 242405.22101688682]
+Last stage spend 0.533500 min
+       nmag:2017-02-23 18:55:45,181    main.py 2593    INFO save_data(): id->id+1=16, fields=all 
+       nmag:2017-02-23 18:55:46,546    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:46,547 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 264442]<A/m>
+       nmag:2017-02-23 18:55:49,050 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=16,step=5265.
+===========================================================================
+ID=16 |        Step=5265 |       Time=3.30 ns |  Last step size=1.61 ps  | 
+      |       Stage=18   | Stage-step=50      |      Stage-time=29.92 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 18 with H_ext [0.0, 0.0, 264442.059291149]
+Last stage spend 0.064500 min
+       nmag:2017-02-23 18:55:49,051    main.py 2593    INFO save_data(): id->id+1=17, fields=all 
+       nmag:2017-02-23 18:55:50,545    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:50,546 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 286479]<A/m>
+       nmag:2017-02-23 18:55:53,293 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=17,step=5325.
+===========================================================================
+ID=17 |        Step=5325 |       Time=3.35 ns |  Last step size=1.66 ps  | 
+      |       Stage=19   | Stage-step=60      |      Stage-time=46.04 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 19 with H_ext [0.0, 0.0, 286478.8975654115]
+Last stage spend 0.070728 min
+       nmag:2017-02-23 18:55:53,294    main.py 2593    INFO save_data(): id->id+1=18, fields=all 
+       nmag:2017-02-23 18:55:54,862    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:54,863 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 308516]<A/m>
+       nmag:2017-02-23 18:55:57,891 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=18,step=5400.
+===========================================================================
+ID=18 |        Step=5400 |       Time=3.42 ns |  Last step size=1.59 ps  | 
+      |       Stage=20   | Stage-step=75      |      Stage-time=69.45 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 20 with H_ext [0.0, 0.0, 308515.7358396738]
+Last stage spend 0.076633 min
+       nmag:2017-02-23 18:55:57,892    main.py 2593    INFO save_data(): id->id+1=19, fields=all 
+       nmag:2017-02-23 18:55:59,254    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:55:59,255 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 330553]<A/m>
+       nmag:2017-02-23 18:56:02,353 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=19,step=5480.
+===========================================================================
+ID=19 |        Step=5480 |       Time=3.50 ns |  Last step size=1.66 ps  | 
+      |       Stage=21   | Stage-step=80      |      Stage-time=78.94 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 21 with H_ext [0.0, 0.0, 330552.5741139361]
+Last stage spend 0.074365 min
+       nmag:2017-02-23 18:56:02,354    main.py 2593    INFO save_data(): id->id+1=20, fields=all 
+       nmag:2017-02-23 18:56:03,761    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:56:03,762 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 352589]<A/m>
+       nmag:2017-02-23 18:56:05,496 hysteresis.py   40    INFO it 5485, time <5.1321e-13s>; stage 22; H_ext=[0 0 352589]<A/m>
+       nmag:2017-02-23 18:56:07,309 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=20,step=5580.
+==========================================================================
+ID=20 |        Step=5580 |       Time=3.61 ns |  Last step size=1.64 ps | 
+      |       Stage=22   | Stage-step=100     |      Stage-time=0.11 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 22 with H_ext [0.0, 0.0, 352589.4123881985]
+Last stage spend 0.082596 min
+       nmag:2017-02-23 18:56:07,310    main.py 2593    INFO save_data(): id->id+1=21, fields=all 
+       nmag:2017-02-23 18:56:08,701    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:56:08,701 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 374626]<A/m>
+       nmag:2017-02-23 18:57:05,538 hysteresis.py   40    INFO it 6735, time <1.28063e-09s>; stage 23; H_ext=[0 0 374626]<A/m>
+       nmag:2017-02-23 18:57:13,707 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=21,step=6950.
+==========================================================================
+ID=21 |        Step=6950 |       Time=5.26 ns |  Last step size=1.75 ps | 
+      |       Stage=23   | Stage-step=1370    |      Stage-time=1.66 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 23 with H_ext [0.0, 0.0, 374626.2506624616]
+Last stage spend 1.106645 min
+       nmag:2017-02-23 18:57:13,709    main.py 2593    INFO save_data(): id->id+1=22, fields=all 
+       nmag:2017-02-23 18:57:15,081    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:57:15,081 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 396663]<A/m>
+       nmag:2017-02-23 18:58:00,275 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=22,step=7805.
+==========================================================================
+ID=22 |        Step=7805 |       Time=6.29 ns |  Last step size=2.28 ps | 
+      |       Stage=24   | Stage-step=855     |      Stage-time=1.02 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 24 with H_ext [0.0, 0.0, 396663.08893672406]
+Last stage spend 0.776128 min
+       nmag:2017-02-23 18:58:00,277    main.py 2593    INFO save_data(): id->id+1=23, fields=all 
+       nmag:2017-02-23 18:58:01,779    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:01,779 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 418700]<A/m>
+       nmag:2017-02-23 18:58:04,987 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=23,step=7875.
+===========================================================================
+ID=23 |        Step=7875 |       Time=6.35 ns |  Last step size=1.62 ps  | 
+      |       Stage=25   | Stage-step=70      |      Stage-time=59.18 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 25 with H_ext [0.0, 0.0, 418699.92721098644]
+Last stage spend 0.078539 min
+       nmag:2017-02-23 18:58:04,989    main.py 2593    INFO save_data(): id->id+1=24, fields=all 
+       nmag:2017-02-23 18:58:06,536    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:06,537 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 440737]<A/m>
+       nmag:2017-02-23 18:58:08,442 hysteresis.py   40    INFO it 7880, time <5.11576e-13s>; stage 26; H_ext=[0 0 440737]<A/m>
+       nmag:2017-02-23 18:58:09,794 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=24,step=7945.
+===========================================================================
+ID=24 |        Step=7945 |       Time=6.40 ns |  Last step size=1.61 ps  | 
+      |       Stage=26   | Stage-step=70      |      Stage-time=59.04 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 26 with H_ext [0.0, 0.0, 440736.76548524835]
+Last stage spend 0.080105 min
+       nmag:2017-02-23 18:58:09,795    main.py 2593    INFO save_data(): id->id+1=25, fields=all 
+       nmag:2017-02-23 18:58:11,382    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:11,383 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 462774]<A/m>
+       nmag:2017-02-23 18:58:42,161 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=25,step=8745.
+==========================================================================
+ID=25 |        Step=8745 |       Time=7.29 ns |  Last step size=1.43 ps | 
+      |       Stage=27   | Stage-step=800     |      Stage-time=0.88 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 27 with H_ext [0.0, 0.0, 462773.6037595116]
+Last stage spend 0.539460 min
+       nmag:2017-02-23 18:58:42,163    main.py 2593    INFO save_data(): id->id+1=26, fields=all 
+       nmag:2017-02-23 18:58:43,629    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:43,630 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 484810]<A/m>
+       nmag:2017-02-23 18:58:46,323 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=26,step=8800.
+===========================================================================
+ID=26 |        Step=8800 |       Time=7.32 ns |  Last step size=1.59 ps  | 
+      |       Stage=28   | Stage-step=55      |      Stage-time=36.22 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 28 with H_ext [0.0, 0.0, 484810.44203377364]
+Last stage spend 0.069361 min
+       nmag:2017-02-23 18:58:46,324    main.py 2593    INFO save_data(): id->id+1=27, fields=all 
+       nmag:2017-02-23 18:58:47,878    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:47,879 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 506847]<A/m>
+       nmag:2017-02-23 18:58:50,546 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=27,step=8860.
+===========================================================================
+ID=27 |        Step=8860 |       Time=7.37 ns |  Last step size=1.58 ps  | 
+      |       Stage=29   | Stage-step=60      |      Stage-time=44.06 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 29 with H_ext [0.0, 0.0, 506847.2803080362]
+Last stage spend 0.070376 min
+       nmag:2017-02-23 18:58:50,547    main.py 2593    INFO save_data(): id->id+1=28, fields=all 
+       nmag:2017-02-23 18:58:52,044    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:52,044 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 528884]<A/m>
+       nmag:2017-02-23 18:58:54,749 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=28,step=8920.
+===========================================================================
+ID=28 |        Step=8920 |       Time=7.41 ns |  Last step size=1.57 ps  | 
+      |       Stage=30   | Stage-step=60      |      Stage-time=43.88 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 30 with H_ext [0.0, 0.0, 528884.118582298]
+Last stage spend 0.070052 min
+       nmag:2017-02-23 18:58:54,750    main.py 2593    INFO save_data(): id->id+1=29, fields=all 
+       nmag:2017-02-23 18:58:56,320    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:58:56,321 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 550921]<A/m>
+       nmag:2017-02-23 18:58:59,251 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=29,step=8985.
+===========================================================================
+ID=29 |        Step=8985 |       Time=7.46 ns |  Last step size=1.72 ps  | 
+      |       Stage=31   | Stage-step=65      |      Stage-time=51.93 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 31 with H_ext [0.0, 0.0, 550920.9568565604]
+Last stage spend 0.075036 min
+       nmag:2017-02-23 18:58:59,252    main.py 2593    INFO save_data(): id->id+1=30, fields=all 
+       nmag:2017-02-23 18:59:00,574    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:00,574 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 572958]<A/m>
+       nmag:2017-02-23 18:59:03,449 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=30,step=9055.
+===========================================================================
+ID=30 |        Step=9055 |       Time=7.52 ns |  Last step size=1.58 ps  | 
+      |       Stage=32   | Stage-step=70      |      Stage-time=58.93 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 32 with H_ext [0.0, 0.0, 572957.795130823]
+Last stage spend 0.069973 min
+       nmag:2017-02-23 18:59:03,451    main.py 2593    INFO save_data(): id->id+1=31, fields=all 
+       nmag:2017-02-23 18:59:04,809    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:04,810 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 594995]<A/m>
+       nmag:2017-02-23 18:59:07,637 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=31,step=9125.
+===========================================================================
+ID=31 |        Step=9125 |       Time=7.58 ns |  Last step size=1.57 ps  | 
+      |       Stage=33   | Stage-step=70      |      Stage-time=58.55 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 33 with H_ext [0.0, 0.0, 594994.6334050839]
+Last stage spend 0.069807 min
+       nmag:2017-02-23 18:59:07,639    main.py 2593    INFO save_data(): id->id+1=32, fields=all 
+       nmag:2017-02-23 18:59:09,003    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:09,004 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 617031]<A/m>
+       nmag:2017-02-23 18:59:10,704 hysteresis.py   40    INFO it 9130, time <4.96715e-13s>; stage 34; H_ext=[0 0 617031]<A/m>
+       nmag:2017-02-23 18:59:12,040 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=32,step=9205.
+===========================================================================
+ID=32 |        Step=9205 |       Time=7.65 ns |  Last step size=1.55 ps  | 
+      |       Stage=34   | Stage-step=80      |      Stage-time=73.78 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 34 with H_ext [0.0, 0.0, 617031.4716793476]
+Last stage spend 0.073384 min
+       nmag:2017-02-23 18:59:12,042    main.py 2593    INFO save_data(): id->id+1=33, fields=all 
+       nmag:2017-02-23 18:59:13,421    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:13,422 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 639068]<A/m>
+       nmag:2017-02-23 18:59:16,686 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=33,step=9290.
+===========================================================================
+ID=33 |        Step=9290 |       Time=7.74 ns |  Last step size=1.65 ps  | 
+      |       Stage=35   | Stage-step=85      |      Stage-time=82.89 ps | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False    | 
+===========================================================================
+Set new H_ext of stage 35 with H_ext [0.0, 0.0, 639068.3099536096]
+Last stage spend 0.077420 min
+       nmag:2017-02-23 18:59:16,687    main.py 2593    INFO save_data(): id->id+1=34, fields=all 
+       nmag:2017-02-23 18:59:18,060    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:18,060 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 661105]<A/m>
+       nmag:2017-02-23 18:59:21,555 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=34,step=9390.
+==========================================================================
+ID=34 |        Step=9390 |       Time=7.85 ns |  Last step size=2.40 ps | 
+      |       Stage=36   | Stage-step=100     |      Stage-time=0.11 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 36 with H_ext [0.0, 0.0, 661105.1482278722]
+Last stage spend 0.081155 min
+       nmag:2017-02-23 18:59:21,557    main.py 2593    INFO save_data(): id->id+1=35, fields=all 
+       nmag:2017-02-23 18:59:22,872    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:22,872 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 683142]<A/m>
+       nmag:2017-02-23 18:59:26,563 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=35,step=9505.
+==========================================================================
+ID=35 |        Step=9505 |       Time=7.97 ns |  Last step size=1.55 ps | 
+      |       Stage=37   | Stage-step=115     |      Stage-time=0.13 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 37 with H_ext [0.0, 0.0, 683141.9865021345]
+Last stage spend 0.083469 min
+       nmag:2017-02-23 18:59:26,565    main.py 2593    INFO save_data(): id->id+1=36, fields=all 
+       nmag:2017-02-23 18:59:28,086    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:28,087 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 705179]<A/m>
+       nmag:2017-02-23 18:59:32,588 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=36,step=9650.
+==========================================================================
+ID=36 |        Step=9650 |       Time=8.15 ns |  Last step size=1.57 ps | 
+      |       Stage=38   | Stage-step=145     |      Stage-time=0.17 ns | 
+      | Convergence=True |  Stage-end=True    | Exit hysteresis=False   | 
+==========================================================================
+Set new H_ext of stage 38 with H_ext [0.0, 0.0, 705178.824776397]
+Last stage spend 0.100426 min
+       nmag:2017-02-23 18:59:32,590    main.py 2593    INFO save_data(): id->id+1=37, fields=all 
+       nmag:2017-02-23 18:59:34,212    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 18:59:34,212 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 727216]<A/m>
+       nmag:2017-02-23 19:00:03,956 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=37,step=10475.
+===========================================================================
+ID=37 |        Step=10475 |       Time=9.04 ns |  Last step size=1.59 ps | 
+      |       Stage=39    | Stage-step=825     |      Stage-time=0.90 ns | 
+      | Convergence=True  |  Stage-end=True    | Exit hysteresis=False   | 
+===========================================================================
+Set new H_ext of stage 39 with H_ext [0.0, 0.0, 727215.663050659]
+Last stage spend 0.522790 min
+       nmag:2017-02-23 19:00:03,958    main.py 2593    INFO save_data(): id->id+1=38, fields=all 
+       nmag:2017-02-23 19:00:05,476    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:00:05,476 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 749253]<A/m>
+       nmag:2017-02-23 19:00:10,889 hysteresis.py   40    INFO it 10605, time <1.82064e-10s>; stage 40; H_ext=[0 0 749253]<A/m>
+       nmag:2017-02-23 19:00:39,466 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=38,step=11220.
+===========================================================================
+ID=38 |        Step=11220 |       Time=9.77 ns |  Last step size=1.33 ps | 
+      |       Stage=40    | Stage-step=745     |      Stage-time=0.73 ns | 
+      | Convergence=True  |  Stage-end=True    | Exit hysteresis=False   | 
+===========================================================================
+Set new H_ext of stage 40 with H_ext [0.0, 0.0, 749252.5013249232]
+Last stage spend 0.591848 min
+       nmag:2017-02-23 19:00:39,469    main.py 2593    INFO save_data(): id->id+1=39, fields=all 
+       nmag:2017-02-23 19:00:40,744    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:00:40,744 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 771289]<A/m>
+       nmag:2017-02-23 19:01:10,833 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=39,step=11960.
+============================================================================
+ID=39 |        Step=11960 |       Time=10.26 ns |  Last step size=1.96 ps | 
+      |       Stage=41    | Stage-step=740      |      Stage-time=0.49 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 41 with H_ext [0.0, 0.0, 771289.3395991842]
+Last stage spend 0.522765 min
+       nmag:2017-02-23 19:01:10,835    main.py 2593    INFO save_data(): id->id+1=40, fields=all 
+       nmag:2017-02-23 19:01:12,133    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:01:12,133 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 793326]<A/m>
+       nmag:2017-02-23 19:01:13,817 hysteresis.py   40    INFO it 11965, time <4.9199e-13s>; stage 42; H_ext=[0 0 793326]<A/m>
+       nmag:2017-02-23 19:01:15,556 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=40,step=12065.
+============================================================================
+ID=40 |        Step=12065 |       Time=10.37 ns |  Last step size=1.57 ps | 
+      |       Stage=42    | Stage-step=105      |      Stage-time=0.11 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 42 with H_ext [0.0, 0.0, 793326.1778734481]
+Last stage spend 0.078716 min
+       nmag:2017-02-23 19:01:15,558    main.py 2593    INFO save_data(): id->id+1=41, fields=all 
+       nmag:2017-02-23 19:01:16,858    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:01:16,858 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 815363]<A/m>
+       nmag:2017-02-23 19:01:20,704 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=41,step=12190.
+============================================================================
+ID=41 |        Step=12190 |       Time=10.51 ns |  Last step size=2.37 ps | 
+      |       Stage=43    | Stage-step=125      |      Stage-time=0.14 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 43 with H_ext [0.0, 0.0, 815363.0161477103]
+Last stage spend 0.085793 min
+       nmag:2017-02-23 19:01:20,705    main.py 2593    INFO save_data(): id->id+1=42, fields=all 
+       nmag:2017-02-23 19:01:22,023    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:01:22,023 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 837400]<A/m>
+       nmag:2017-02-23 19:01:26,814 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=42,step=12370.
+============================================================================
+ID=42 |        Step=12370 |       Time=10.74 ns |  Last step size=1.60 ps | 
+      |       Stage=44    | Stage-step=180      |      Stage-time=0.23 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 44 with H_ext [0.0, 0.0, 837399.8544219729]
+Last stage spend 0.101839 min
+       nmag:2017-02-23 19:01:26,815    main.py 2593    INFO save_data(): id->id+1=43, fields=all 
+       nmag:2017-02-23 19:01:28,076    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:01:28,077 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 859437]<A/m>
+       nmag:2017-02-23 19:01:55,567 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=43,step=13055.
+============================================================================
+ID=43 |        Step=13055 |       Time=11.27 ns |  Last step size=1.65 ps | 
+      |       Stage=45    | Stage-step=685      |      Stage-time=0.53 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 45 with H_ext [0.0, 0.0, 859436.6926962333]
+Last stage spend 0.479220 min
+       nmag:2017-02-23 19:01:55,569    main.py 2593    INFO save_data(): id->id+1=44, fields=all 
+       nmag:2017-02-23 19:01:56,945    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:01:56,945 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 881474]<A/m>
+       nmag:2017-02-23 19:02:13,888 hysteresis.py   40    INFO it 13630, time <2.35208e-10s>; stage 46; H_ext=[0 0 881474]<A/m>
+       nmag:2017-02-23 19:02:57,668 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=44,step=14730.
+============================================================================
+ID=44 |        Step=14730 |       Time=12.16 ns |  Last step size=1.89 ps | 
+      |       Stage=46    | Stage-step=1675     |      Stage-time=0.89 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 46 with H_ext [0.0, 0.0, 881473.5309704967]
+Last stage spend 1.035014 min
+       nmag:2017-02-23 19:02:57,670    main.py 2593    INFO save_data(): id->id+1=45, fields=all 
+       nmag:2017-02-23 19:02:59,069    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:02:59,069 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 903510]<A/m>
+       nmag:2017-02-23 19:03:04,764 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=45,step=14930.
+============================================================================
+ID=45 |        Step=14930 |       Time=12.43 ns |  Last step size=1.68 ps | 
+      |       Stage=47    | Stage-step=200      |      Stage-time=0.27 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 47 with H_ext [0.0, 0.0, 903510.3692447611]
+Last stage spend 0.118259 min
+       nmag:2017-02-23 19:03:04,765    main.py 2593    INFO save_data(): id->id+1=46, fields=all 
+       nmag:2017-02-23 19:03:06,069    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:03:06,069 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 925547]<A/m>
+       nmag:2017-02-23 19:03:14,005 hysteresis.py   40    INFO it 15160, time <3.14279e-10s>; stage 48; H_ext=[0 0 925547]<A/m>
+       nmag:2017-02-23 19:03:28,383 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=46,step=15525.
+============================================================================
+ID=46 |        Step=15525 |       Time=12.94 ns |  Last step size=2.01 ps | 
+      |       Stage=48    | Stage-step=595      |      Stage-time=0.50 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 48 with H_ext [0.0, 0.0, 925547.2075190232]
+Last stage spend 0.393666 min
+       nmag:2017-02-23 19:03:28,385    main.py 2593    INFO save_data(): id->id+1=47, fields=all 
+       nmag:2017-02-23 19:03:29,928    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:03:29,929 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 947584]<A/m>
+       nmag:2017-02-23 19:03:32,970 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=47,step=15600.
+=============================================================================
+ID=47 |        Step=15600 |       Time=13.00 ns |  Last step size=1.68 ps  | 
+      |       Stage=49    | Stage-step=75       |      Stage-time=63.65 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 49 with H_ext [0.0, 0.0, 947584.0457932808]
+Last stage spend 0.076447 min
+       nmag:2017-02-23 19:03:32,972    main.py 2593    INFO save_data(): id->id+1=48, fields=all 
+       nmag:2017-02-23 19:03:34,412    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:03:34,413 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 969621]<A/m>
+       nmag:2017-02-23 19:03:37,469 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=48,step=15675.
+=============================================================================
+ID=48 |        Step=15675 |       Time=13.07 ns |  Last step size=1.59 ps  | 
+      |       Stage=50    | Stage-step=75       |      Stage-time=64.03 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 50 with H_ext [0.0, 0.0, 969620.8840675473]
+Last stage spend 0.074998 min
+       nmag:2017-02-23 19:03:37,472    main.py 2593    INFO save_data(): id->id+1=49, fields=all 
+       nmag:2017-02-23 19:03:38,885    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:03:38,886 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 991658]<A/m>
+       nmag:2017-02-23 19:03:42,158 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=49,step=15760.
+=============================================================================
+ID=49 |        Step=15760 |       Time=13.15 ns |  Last step size=1.74 ps  | 
+      |       Stage=51    | Stage-step=85       |      Stage-time=81.58 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 51 with H_ext [0.0, 0.0, 991657.7223418077]
+Last stage spend 0.078143 min
+       nmag:2017-02-23 19:03:42,160    main.py 2593    INFO save_data(): id->id+1=50, fields=all 
+       nmag:2017-02-23 19:03:43,616    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:03:43,617 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.01369e+06]<A/m>
+       nmag:2017-02-23 19:04:05,374 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=50,step=16405.
+============================================================================
+ID=50 |        Step=16405 |       Time=13.57 ns |  Last step size=1.61 ps | 
+      |       Stage=52    | Stage-step=645      |      Stage-time=0.42 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 52 with H_ext [0.0, 0.0, 1013694.5606160724]
+Last stage spend 0.386932 min
+       nmag:2017-02-23 19:04:05,376    main.py 2593    INFO save_data(): id->id+1=51, fields=all 
+       nmag:2017-02-23 19:04:06,678    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:04:06,678 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.03573e+06]<A/m>
+       nmag:2017-02-23 19:04:11,057 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=51,step=16520.
+============================================================================
+ID=51 |        Step=16520 |       Time=13.70 ns |  Last step size=1.71 ps | 
+      |       Stage=53    | Stage-step=115      |      Stage-time=0.13 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 53 with H_ext [0.0, 0.0, 1035731.3988903333]
+Last stage spend 0.094725 min
+       nmag:2017-02-23 19:04:11,060    main.py 2593    INFO save_data(): id->id+1=52, fields=all 
+       nmag:2017-02-23 19:04:12,631    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:04:12,631 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.05777e+06]<A/m>
+       nmag:2017-02-23 19:04:14,584 hysteresis.py   40    INFO it 16525, time <5.08676e-13s>; stage 54; H_ext=[0 0 1.05777e+06]<A/m>
+       nmag:2017-02-23 19:04:31,895 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=52,step=17235.
+============================================================================
+ID=52 |        Step=17235 |       Time=14.07 ns |  Last step size=2.25 ps | 
+      |       Stage=54    | Stage-step=715      |      Stage-time=0.37 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 54 with H_ext [0.0, 0.0, 1057768.237164596]
+Last stage spend 0.347291 min
+       nmag:2017-02-23 19:04:31,897    main.py 2593    INFO save_data(): id->id+1=53, fields=all 
+       nmag:2017-02-23 19:04:33,257    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:04:33,258 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.07981e+06]<A/m>
+       nmag:2017-02-23 19:04:38,785 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=53,step=17420.
+============================================================================
+ID=53 |        Step=17420 |       Time=14.33 ns |  Last step size=1.71 ps | 
+      |       Stage=55    | Stage-step=185      |      Stage-time=0.25 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 55 with H_ext [0.0, 0.0, 1079805.075438859]
+Last stage spend 0.114836 min
+       nmag:2017-02-23 19:04:38,787    main.py 2593    INFO save_data(): id->id+1=54, fields=all 
+       nmag:2017-02-23 19:04:40,208    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:04:40,208 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.10184e+06]<A/m>
+       nmag:2017-02-23 19:05:14,585 hysteresis.py   40    INFO it 18185, time <3.74887e-10s>; stage 56; H_ext=[0 0 1.10184e+06]<A/m>
+       nmag:2017-02-23 19:05:19,742 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=54,step=18355.
+============================================================================
+ID=54 |        Step=18355 |       Time=14.77 ns |  Last step size=1.47 ps | 
+      |       Stage=56    | Stage-step=935      |      Stage-time=0.44 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 56 with H_ext [0.0, 0.0, 1101841.9137131209]
+Last stage spend 0.682618 min
+       nmag:2017-02-23 19:05:19,745    main.py 2593    INFO save_data(): id->id+1=55, fields=all 
+       nmag:2017-02-23 19:05:21,332    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:05:21,333 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.12388e+06]<A/m>
+       nmag:2017-02-23 19:06:10,780 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=55,step=20880.
+============================================================================
+ID=55 |        Step=20880 |       Time=15.02 ns |  Last step size=0.04 ps | 
+      |       Stage=57    | Stage-step=2525     |      Stage-time=0.26 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 57 with H_ext [0.0, 0.0, 1123878.7519873823]
+Last stage spend 0.850624 min
+       nmag:2017-02-23 19:06:10,782    main.py 2593    INFO save_data(): id->id+1=56, fields=all 
+       nmag:2017-02-23 19:06:12,136    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:12,137 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.14592e+06]<A/m>
+       nmag:2017-02-23 19:06:14,655 hysteresis.py   40    INFO it 20930, time <2.76955e-11s>; stage 58; H_ext=[0 0 1.14592e+06]<A/m>
+       nmag:2017-02-23 19:06:14,928 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=56,step=20945.
+=============================================================================
+ID=56 |        Step=20945 |       Time=15.07 ns |  Last step size=1.34 ps  | 
+      |       Stage=58    | Stage-step=65       |      Stage-time=47.80 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 58 with H_ext [0.0, 0.0, 1145915.590261646]
+Last stage spend 0.069135 min
+       nmag:2017-02-23 19:06:14,930    main.py 2593    INFO save_data(): id->id+1=57, fields=all 
+       nmag:2017-02-23 19:06:16,335    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:16,335 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.16795e+06]<A/m>
+       nmag:2017-02-23 19:06:19,406 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=57,step=21010.
+=============================================================================
+ID=57 |        Step=21010 |       Time=15.12 ns |  Last step size=1.89 ps  | 
+      |       Stage=59    | Stage-step=65       |      Stage-time=49.15 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 59 with H_ext [0.0, 0.0, 1167952.428535909]
+Last stage spend 0.074652 min
+       nmag:2017-02-23 19:06:19,409    main.py 2593    INFO save_data(): id->id+1=58, fields=all 
+       nmag:2017-02-23 19:06:20,829    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:20,829 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.18999e+06]<A/m>
+       nmag:2017-02-23 19:06:23,931 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=58,step=21080.
+=============================================================================
+ID=58 |        Step=21080 |       Time=15.18 ns |  Last step size=1.91 ps  | 
+      |       Stage=60    | Stage-step=70       |      Stage-time=56.95 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 60 with H_ext [0.0, 0.0, 1189989.2668101678]
+Last stage spend 0.075387 min
+       nmag:2017-02-23 19:06:23,932    main.py 2593    INFO save_data(): id->id+1=59, fields=all 
+       nmag:2017-02-23 19:06:25,469    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:25,470 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.21203e+06]<A/m>
+       nmag:2017-02-23 19:06:28,688 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=59,step=21155.
+=============================================================================
+ID=59 |        Step=21155 |       Time=15.25 ns |  Last step size=1.67 ps  | 
+      |       Stage=61    | Stage-step=75       |      Stage-time=67.37 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 61 with H_ext [0.0, 0.0, 1212026.1050844337]
+Last stage spend 0.079302 min
+       nmag:2017-02-23 19:06:28,691    main.py 2593    INFO save_data(): id->id+1=60, fields=all 
+       nmag:2017-02-23 19:06:30,125    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:30,126 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.23406e+06]<A/m>
+       nmag:2017-02-23 19:06:33,480 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=60,step=21235.
+=============================================================================
+ID=60 |        Step=21235 |       Time=15.32 ns |  Last step size=1.66 ps  | 
+      |       Stage=62    | Stage-step=80       |      Stage-time=77.88 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 62 with H_ext [0.0, 0.0, 1234062.9433586951]
+Last stage spend 0.079919 min
+       nmag:2017-02-23 19:06:33,486    main.py 2593    INFO save_data(): id->id+1=61, fields=all 
+       nmag:2017-02-23 19:06:35,244    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:35,245 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.2561e+06]<A/m>
+       nmag:2017-02-23 19:06:39,040 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=61,step=21340.
+============================================================================
+ID=61 |        Step=21340 |       Time=15.44 ns |  Last step size=1.78 ps | 
+      |       Stage=63    | Stage-step=105      |      Stage-time=0.12 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 63 with H_ext [0.0, 0.0, 1256099.7816329575]
+Last stage spend 0.092609 min
+       nmag:2017-02-23 19:06:39,042    main.py 2593    INFO save_data(): id->id+1=62, fields=all 
+       nmag:2017-02-23 19:06:40,499    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:06:40,500 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.27814e+06]<A/m>
+       nmag:2017-02-23 19:07:14,658 hysteresis.py   40    INFO it 23090, time <1.79856e-10s>; stage 64; H_ext=[0 0 1.27814e+06]<A/m>
+       nmag:2017-02-23 19:07:32,118 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=62,step=24125.
+============================================================================
+ID=62 |        Step=24125 |       Time=15.67 ns |  Last step size=0.04 ps | 
+      |       Stage=64    | Stage-step=2785     |      Stage-time=0.22 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 64 with H_ext [0.0, 0.0, 1278136.6199072192]
+Last stage spend 0.884625 min
+       nmag:2017-02-23 19:07:32,120    main.py 2593    INFO save_data(): id->id+1=63, fields=all 
+       nmag:2017-02-23 19:07:33,448    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:07:33,449 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.30017e+06]<A/m>
+       nmag:2017-02-23 19:08:01,028 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=63,step=25090.
+============================================================================
+ID=63 |        Step=25090 |       Time=15.89 ns |  Last step size=0.11 ps | 
+      |       Stage=65    | Stage-step=965      |      Stage-time=0.22 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 65 with H_ext [0.0, 0.0, 1300173.458181484]
+Last stage spend 0.481829 min
+       nmag:2017-02-23 19:08:01,029    main.py 2593    INFO save_data(): id->id+1=64, fields=all 
+       nmag:2017-02-23 19:08:02,512    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:08:02,513 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.32221e+06]<A/m>
+       nmag:2017-02-23 19:08:05,688 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=64,step=25170.
+=============================================================================
+ID=64 |        Step=25170 |       Time=15.97 ns |  Last step size=1.67 ps  | 
+      |       Stage=66    | Stage-step=80       |      Stage-time=79.14 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 66 with H_ext [0.0, 0.0, 1322210.2964557444]
+Last stage spend 0.077664 min
+       nmag:2017-02-23 19:08:05,689    main.py 2593    INFO save_data(): id->id+1=65, fields=all 
+       nmag:2017-02-23 19:08:07,084    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:08:07,084 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.34425e+06]<A/m>
+       nmag:2017-02-23 19:08:10,860 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=65,step=25270.
+============================================================================
+ID=65 |        Step=25270 |       Time=16.09 ns |  Last step size=1.81 ps | 
+      |       Stage=67    | Stage-step=100      |      Stage-time=0.12 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 67 with H_ext [0.0, 0.0, 1344247.1347300056]
+Last stage spend 0.086203 min
+       nmag:2017-02-23 19:08:10,861    main.py 2593    INFO save_data(): id->id+1=66, fields=all 
+       nmag:2017-02-23 19:08:12,276    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:08:12,277 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.36628e+06]<A/m>
+       nmag:2017-02-23 19:08:14,727 hysteresis.py   40    INFO it 25315, time <2.88963e-11s>; stage 68; H_ext=[0 0 1.36628e+06]<A/m>
+       nmag:2017-02-23 19:08:34,372 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=66,step=26105.
+============================================================================
+ID=66 |        Step=26105 |       Time=16.32 ns |  Last step size=0.86 ps | 
+      |       Stage=68    | Stage-step=835      |      Stage-time=0.23 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 68 with H_ext [0.0, 0.0, 1366283.973004269]
+Last stage spend 0.391873 min
+       nmag:2017-02-23 19:08:34,374    main.py 2593    INFO save_data(): id->id+1=67, fields=all 
+       nmag:2017-02-23 19:08:35,768    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:08:35,768 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.38832e+06]<A/m>
+       nmag:2017-02-23 19:08:38,873 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=67,step=26185.
+=============================================================================
+ID=67 |        Step=26185 |       Time=16.40 ns |  Last step size=1.77 ps  | 
+      |       Stage=69    | Stage-step=80       |      Stage-time=81.31 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 69 with H_ext [0.0, 0.0, 1388320.811278535]
+Last stage spend 0.075000 min
+       nmag:2017-02-23 19:08:38,874    main.py 2593    INFO save_data(): id->id+1=68, fields=all 
+       nmag:2017-02-23 19:08:40,437    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:08:40,438 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.41036e+06]<A/m>
+       nmag:2017-02-23 19:09:14,809 hysteresis.py   40    INFO it 27695, time <2.23383e-10s>; stage 70; H_ext=[0 0 1.41036e+06]<A/m>
+       nmag:2017-02-23 19:09:21,153 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=68,step=27990.
+============================================================================
+ID=68 |        Step=27990 |       Time=16.64 ns |  Last step size=0.07 ps | 
+      |       Stage=70    | Stage-step=1805     |      Stage-time=0.24 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 70 with H_ext [0.0, 0.0, 1410357.649552794]
+Last stage spend 0.704675 min
+       nmag:2017-02-23 19:09:21,154    main.py 2593    INFO save_data(): id->id+1=69, fields=all 
+       nmag:2017-02-23 19:09:22,702    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:09:22,703 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.43239e+06]<A/m>
+       nmag:2017-02-23 19:09:26,195 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=69,step=28090.
+============================================================================
+ID=69 |        Step=28090 |       Time=16.76 ns |  Last step size=1.69 ps | 
+      |       Stage=71    | Stage-step=100      |      Stage-time=0.12 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 71 with H_ext [0.0, 0.0, 1432394.4878270547]
+Last stage spend 0.084033 min
+       nmag:2017-02-23 19:09:26,196    main.py 2593    INFO save_data(): id->id+1=70, fields=all 
+       nmag:2017-02-23 19:09:27,753    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:09:27,754 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.45443e+06]<A/m>
+       nmag:2017-02-23 19:10:00,593 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=70,step=29555.
+============================================================================
+ID=70 |        Step=29555 |       Time=17.00 ns |  Last step size=1.61 ps | 
+      |       Stage=72    | Stage-step=1465     |      Stage-time=0.24 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 72 with H_ext [0.0, 0.0, 1454431.326101318]
+Last stage spend 0.573302 min
+       nmag:2017-02-23 19:10:00,594    main.py 2593    INFO save_data(): id->id+1=71, fields=all 
+       nmag:2017-02-23 19:10:02,176    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:02,177 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.47647e+06]<A/m>
+       nmag:2017-02-23 19:10:04,995 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=71,step=29615.
+=============================================================================
+ID=71 |        Step=29615 |       Time=17.06 ns |  Last step size=1.89 ps  | 
+      |       Stage=73    | Stage-step=60       |      Stage-time=56.42 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 73 with H_ext [0.0, 0.0, 1476468.1643755822]
+Last stage spend 0.073360 min
+       nmag:2017-02-23 19:10:04,996    main.py 2593    INFO save_data(): id->id+1=72, fields=all 
+       nmag:2017-02-23 19:10:06,354    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:06,355 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.49851e+06]<A/m>
+       nmag:2017-02-23 19:10:09,424 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=72,step=29685.
+=============================================================================
+ID=72 |        Step=29685 |       Time=17.13 ns |  Last step size=1.87 ps  | 
+      |       Stage=74    | Stage-step=70       |      Stage-time=75.40 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 74 with H_ext [0.0, 0.0, 1498505.0026498465]
+Last stage spend 0.073825 min
+       nmag:2017-02-23 19:10:09,425    main.py 2593    INFO save_data(): id->id+1=73, fields=all 
+       nmag:2017-02-23 19:10:10,840    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:10,841 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.52054e+06]<A/m>
+       nmag:2017-02-23 19:10:14,557 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=73,step=29780.
+============================================================================
+ID=73 |        Step=29780 |       Time=17.26 ns |  Last step size=1.90 ps | 
+      |       Stage=75    | Stage-step=95       |      Stage-time=0.12 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 75 with H_ext [0.0, 0.0, 1520541.8409241086]
+Last stage spend 0.085552 min
+       nmag:2017-02-23 19:10:14,559    main.py 2593    INFO save_data(): id->id+1=74, fields=all 
+       nmag:2017-02-23 19:10:15,819    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:15,819 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.54258e+06]<A/m>
+       nmag:2017-02-23 19:10:17,538 hysteresis.py   40    INFO it 29785, time <5.78425e-13s>; stage 76; H_ext=[0 0 1.54258e+06]<A/m>
+       nmag:2017-02-23 19:10:41,696 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=74,step=30350.
+============================================================================
+ID=74 |        Step=30350 |       Time=17.56 ns |  Last step size=1.37 ps | 
+      |       Stage=76    | Stage-step=570      |      Stage-time=0.30 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 76 with H_ext [0.0, 0.0, 1542578.6791983685]
+Last stage spend 0.452320 min
+       nmag:2017-02-23 19:10:41,698    main.py 2593    INFO save_data(): id->id+1=75, fields=all 
+       nmag:2017-02-23 19:10:43,293    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:43,294 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.56462e+06]<A/m>
+       nmag:2017-02-23 19:10:46,577 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=75,step=30430.
+=============================================================================
+ID=75 |        Step=30430 |       Time=17.64 ns |  Last step size=1.74 ps  | 
+      |       Stage=77    | Stage-step=80       |      Stage-time=87.05 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 77 with H_ext [0.0, 0.0, 1564615.5174726327]
+Last stage spend 0.081353 min
+       nmag:2017-02-23 19:10:46,579    main.py 2593    INFO save_data(): id->id+1=76, fields=all 
+       nmag:2017-02-23 19:10:48,080    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:48,080 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.58665e+06]<A/m>
+       nmag:2017-02-23 19:10:52,468 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=76,step=30540.
+============================================================================
+ID=76 |        Step=30540 |       Time=17.80 ns |  Last step size=1.95 ps | 
+      |       Stage=78    | Stage-step=110      |      Stage-time=0.16 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 78 with H_ext [0.0, 0.0, 1586652.3557468962]
+Last stage spend 0.098171 min
+       nmag:2017-02-23 19:10:52,469    main.py 2593    INFO save_data(): id->id+1=77, fields=all 
+       nmag:2017-02-23 19:10:54,047    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:10:54,048 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.60869e+06]<A/m>
+       nmag:2017-02-23 19:11:15,565 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=77,step=31185.
+============================================================================
+ID=77 |        Step=31185 |       Time=18.03 ns |  Last step size=1.05 ps | 
+      |       Stage=79    | Stage-step=645      |      Stage-time=0.23 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 79 with H_ext [0.0, 0.0, 1608689.1940211598]
+Last stage spend 0.384954 min
+       nmag:2017-02-23 19:11:15,567    main.py 2593    INFO save_data(): id->id+1=78, fields=all 
+       nmag:2017-02-23 19:11:16,930    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:11:16,931 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.63073e+06]<A/m>
+       nmag:2017-02-23 19:11:18,669 hysteresis.py   40    INFO it 31190, time <5.54734e-13s>; stage 80; H_ext=[0 0 1.63073e+06]<A/m>
+       nmag:2017-02-23 19:11:19,862 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=78,step=31245.
+=============================================================================
+ID=78 |        Step=31245 |       Time=18.10 ns |  Last step size=1.91 ps  | 
+      |       Stage=80    | Stage-step=60       |      Stage-time=61.42 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 80 with H_ext [0.0, 0.0, 1630726.0322954205]
+Last stage spend 0.071609 min
+       nmag:2017-02-23 19:11:19,863    main.py 2593    INFO save_data(): id->id+1=79, fields=all 
+       nmag:2017-02-23 19:11:21,421    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:11:21,422 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.65276e+06]<A/m>
+       nmag:2017-02-23 19:11:24,470 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=79,step=31310.
+=============================================================================
+ID=79 |        Step=31310 |       Time=18.17 ns |  Last step size=2.10 ps  | 
+      |       Stage=81    | Stage-step=65       |      Stage-time=70.19 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 81 with H_ext [0.0, 0.0, 1652762.8705696845]
+Last stage spend 0.076799 min
+       nmag:2017-02-23 19:11:24,471    main.py 2593    INFO save_data(): id->id+1=80, fields=all 
+       nmag:2017-02-23 19:11:25,885    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:11:25,885 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.6748e+06]<A/m>
+       nmag:2017-02-23 19:11:29,069 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=80,step=31385.
+=============================================================================
+ID=80 |        Step=31385 |       Time=18.25 ns |  Last step size=2.04 ps  | 
+      |       Stage=82    | Stage-step=75       |      Stage-time=85.56 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 82 with H_ext [0.0, 0.0, 1674799.7088439458]
+Last stage spend 0.076672 min
+       nmag:2017-02-23 19:11:29,071    main.py 2593    INFO save_data(): id->id+1=81, fields=all 
+       nmag:2017-02-23 19:11:30,429    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:11:30,430 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.69684e+06]<A/m>
+       nmag:2017-02-23 19:11:56,718 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=81,step=32185.
+============================================================================
+ID=81 |        Step=32185 |       Time=18.59 ns |  Last step size=2.18 ps | 
+      |       Stage=83    | Stage-step=800      |      Stage-time=0.34 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 83 with H_ext [0.0, 0.0, 1696836.5471182032]
+Last stage spend 0.460799 min
+       nmag:2017-02-23 19:11:56,719    main.py 2593    INFO save_data(): id->id+1=82, fields=all 
+       nmag:2017-02-23 19:11:58,071    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:11:58,072 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.71887e+06]<A/m>
+       nmag:2017-02-23 19:12:01,551 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=82,step=32265.
+============================================================================
+ID=82 |        Step=32265 |       Time=18.70 ns |  Last step size=2.17 ps | 
+      |       Stage=84    | Stage-step=80       |      Stage-time=0.10 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 84 with H_ext [0.0, 0.0, 1718873.3853924666]
+Last stage spend 0.080550 min
+       nmag:2017-02-23 19:12:01,552    main.py 2593    INFO save_data(): id->id+1=83, fields=all 
+       nmag:2017-02-23 19:12:02,996    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:12:02,997 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.74091e+06]<A/m>
+       nmag:2017-02-23 19:12:21,936 hysteresis.py   40    INFO it 32370, time <1.5648e-10s>; stage 85; H_ext=[0 0 1.74091e+06]<A/m>
+       nmag:2017-02-23 19:12:38,997 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=83,step=33040.
+============================================================================
+ID=83 |        Step=33040 |       Time=18.95 ns |  Last step size=1.01 ps | 
+      |       Stage=85    | Stage-step=775      |      Stage-time=0.26 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 85 with H_ext [0.0, 0.0, 1740910.2236667345]
+Last stage spend 0.624107 min
+       nmag:2017-02-23 19:12:38,999    main.py 2593    INFO save_data(): id->id+1=84, fields=all 
+       nmag:2017-02-23 19:12:40,269    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:12:40,269 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.76295e+06]<A/m>
+       nmag:2017-02-23 19:12:43,123 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=84,step=33100.
+=============================================================================
+ID=84 |        Step=33100 |       Time=19.02 ns |  Last step size=1.82 ps  | 
+      |       Stage=86    | Stage-step=60       |      Stage-time=64.05 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 86 with H_ext [0.0, 0.0, 1762947.0619409934]
+Last stage spend 0.068763 min
+       nmag:2017-02-23 19:12:43,124    main.py 2593    INFO save_data(): id->id+1=85, fields=all 
+       nmag:2017-02-23 19:12:44,406    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:12:44,407 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.78498e+06]<A/m>
+       nmag:2017-02-23 19:12:47,343 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=85,step=33165.
+=============================================================================
+ID=85 |        Step=33165 |       Time=19.09 ns |  Last step size=1.82 ps  | 
+      |       Stage=87    | Stage-step=65       |      Stage-time=73.12 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 87 with H_ext [0.0, 0.0, 1784983.9002152581]
+Last stage spend 0.070349 min
+       nmag:2017-02-23 19:12:47,345    main.py 2593    INFO save_data(): id->id+1=86, fields=all 
+       nmag:2017-02-23 19:12:48,682    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:12:48,682 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.80702e+06]<A/m>
+       nmag:2017-02-23 19:12:51,965 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=86,step=33240.
+=============================================================================
+ID=86 |        Step=33240 |       Time=19.18 ns |  Last step size=1.90 ps  | 
+      |       Stage=88    | Stage-step=75       |      Stage-time=94.68 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False    | 
+=============================================================================
+Set new H_ext of stage 88 with H_ext [0.0, 0.0, 1807020.7384895221]
+Last stage spend 0.077014 min
+       nmag:2017-02-23 19:12:51,966    main.py 2593    INFO save_data(): id->id+1=87, fields=all 
+       nmag:2017-02-23 19:12:53,239    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:12:53,239 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.82906e+06]<A/m>
+       nmag:2017-02-23 19:13:20,035 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=87,step=34355.
+============================================================================
+ID=87 |        Step=34355 |       Time=19.50 ns |  Last step size=0.05 ps | 
+      |       Stage=89    | Stage-step=1115     |      Stage-time=0.32 ns | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 89 with H_ext [0.0, 0.0, 1829057.576763782]
+Last stage spend 0.467842 min
+       nmag:2017-02-23 19:13:20,037    main.py 2593    INFO save_data(): id->id+1=88, fields=all 
+       nmag:2017-02-23 19:13:21,569    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:21,570 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.85109e+06]<A/m>
+       nmag:2017-02-23 19:13:23,307 hysteresis.py   40    INFO it 34360, time <5.52066e-13s>; stage 90; H_ext=[0 0 1.85109e+06]<A/m>
+       nmag:2017-02-23 19:13:23,573 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=88,step=34375.
+============================================================================
+ID=88 |        Step=34375 |       Time=19.51 ns |  Last step size=0.54 ps | 
+      |       Stage=90    | Stage-step=20       |      Stage-time=6.29 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 90 with H_ext [0.0, 0.0, 1851094.4150380464]
+Last stage spend 0.058957 min
+       nmag:2017-02-23 19:13:23,574    main.py 2593    INFO save_data(): id->id+1=89, fields=all 
+       nmag:2017-02-23 19:13:24,916    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:24,917 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.87313e+06]<A/m>
+       nmag:2017-02-23 19:13:26,920 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=89,step=34395.
+============================================================================
+ID=89 |        Step=34395 |       Time=19.51 ns |  Last step size=0.49 ps | 
+      |       Stage=91    | Stage-step=20       |      Stage-time=6.28 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 91 with H_ext [0.0, 0.0, 1873131.2533123079]
+Last stage spend 0.055786 min
+       nmag:2017-02-23 19:13:26,921    main.py 2593    INFO save_data(): id->id+1=90, fields=all 
+       nmag:2017-02-23 19:13:28,297    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:28,297 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.89517e+06]<A/m>
+       nmag:2017-02-23 19:13:30,317 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=90,step=34415.
+============================================================================
+ID=90 |        Step=34415 |       Time=19.52 ns |  Last step size=0.49 ps | 
+      |       Stage=92    | Stage-step=20       |      Stage-time=6.36 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 92 with H_ext [0.0, 0.0, 1895168.0915865616]
+Last stage spend 0.056623 min
+       nmag:2017-02-23 19:13:30,319    main.py 2593    INFO save_data(): id->id+1=91, fields=all 
+       nmag:2017-02-23 19:13:31,671    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:31,672 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.9172e+06]<A/m>
+       nmag:2017-02-23 19:13:33,672 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=91,step=34435.
+============================================================================
+ID=91 |        Step=34435 |       Time=19.52 ns |  Last step size=0.49 ps | 
+      |       Stage=93    | Stage-step=20       |      Stage-time=6.37 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 93 with H_ext [0.0, 0.0, 1917204.9298608294]
+Last stage spend 0.055904 min
+       nmag:2017-02-23 19:13:33,673    main.py 2593    INFO save_data(): id->id+1=92, fields=all 
+       nmag:2017-02-23 19:13:35,050    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:35,050 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.93924e+06]<A/m>
+       nmag:2017-02-23 19:13:37,039 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=92,step=34455.
+============================================================================
+ID=92 |        Step=34455 |       Time=19.53 ns |  Last step size=0.49 ps | 
+      |       Stage=94    | Stage-step=20       |      Stage-time=6.37 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 94 with H_ext [0.0, 0.0, 1939241.7681350945]
+Last stage spend 0.056120 min
+       nmag:2017-02-23 19:13:37,040    main.py 2593    INFO save_data(): id->id+1=93, fields=all 
+       nmag:2017-02-23 19:13:38,499    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:38,500 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.96128e+06]<A/m>
+       nmag:2017-02-23 19:13:40,496 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=93,step=34475.
+============================================================================
+ID=93 |        Step=34475 |       Time=19.54 ns |  Last step size=0.49 ps | 
+      |       Stage=95    | Stage-step=20       |      Stage-time=6.36 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 95 with H_ext [0.0, 0.0, 1961278.6064093548]
+Last stage spend 0.057618 min
+       nmag:2017-02-23 19:13:40,497    main.py 2593    INFO save_data(): id->id+1=94, fields=all 
+       nmag:2017-02-23 19:13:41,957    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:41,958 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 1.98332e+06]<A/m>
+       nmag:2017-02-23 19:13:43,956 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=94,step=34495.
+============================================================================
+ID=94 |        Step=34495 |       Time=19.54 ns |  Last step size=0.49 ps | 
+      |       Stage=96    | Stage-step=20       |      Stage-time=6.25 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 96 with H_ext [0.0, 0.0, 1983315.4446836154]
+Last stage spend 0.057671 min
+       nmag:2017-02-23 19:13:43,957    main.py 2593    INFO save_data(): id->id+1=95, fields=all 
+       nmag:2017-02-23 19:13:45,397    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:45,398 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.00535e+06]<A/m>
+       nmag:2017-02-23 19:13:47,386 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=95,step=34515.
+============================================================================
+ID=95 |        Step=34515 |       Time=19.55 ns |  Last step size=0.49 ps | 
+      |       Stage=97    | Stage-step=20       |      Stage-time=6.25 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 97 with H_ext [0.0, 0.0, 2005352.2829578777]
+Last stage spend 0.057170 min
+       nmag:2017-02-23 19:13:47,388    main.py 2593    INFO save_data(): id->id+1=96, fields=all 
+       nmag:2017-02-23 19:13:48,792    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:48,793 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.02739e+06]<A/m>
+       nmag:2017-02-23 19:13:50,775 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=96,step=34535.
+============================================================================
+ID=96 |        Step=34535 |       Time=19.56 ns |  Last step size=0.49 ps | 
+      |       Stage=98    | Stage-step=20       |      Stage-time=6.25 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 98 with H_ext [0.0, 0.0, 2027389.1212321448]
+Last stage spend 0.056471 min
+       nmag:2017-02-23 19:13:50,776    main.py 2593    INFO save_data(): id->id+1=97, fields=all 
+       nmag:2017-02-23 19:13:52,119    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:52,120 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.04943e+06]<A/m>
+       nmag:2017-02-23 19:13:54,098 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=97,step=34555.
+============================================================================
+ID=97 |        Step=34555 |       Time=19.56 ns |  Last step size=0.49 ps | 
+      |       Stage=99    | Stage-step=20       |      Stage-time=6.26 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 99 with H_ext [0.0, 0.0, 2049425.959506402]
+Last stage spend 0.055380 min
+       nmag:2017-02-23 19:13:54,099    main.py 2593    INFO save_data(): id->id+1=98, fields=all 
+       nmag:2017-02-23 19:13:55,442    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:55,443 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.07146e+06]<A/m>
+       nmag:2017-02-23 19:13:57,444 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=98,step=34575.
+============================================================================
+ID=98 |        Step=34575 |       Time=19.57 ns |  Last step size=0.49 ps | 
+      |       Stage=100   | Stage-step=20       |      Stage-time=6.26 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 100 with H_ext [0.0, 0.0, 2071462.7977806665]
+Last stage spend 0.055775 min
+       nmag:2017-02-23 19:13:57,445    main.py 2593    INFO save_data(): id->id+1=99, fields=all 
+       nmag:2017-02-23 19:13:58,713    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:13:58,713 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.0935e+06]<A/m>
+       nmag:2017-02-23 19:14:00,718 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=99,step=34595.
+============================================================================
+ID=99 |        Step=34595 |       Time=19.57 ns |  Last step size=0.49 ps | 
+      |       Stage=101   | Stage-step=20       |      Stage-time=6.37 ps | 
+      | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+============================================================================
+Set new H_ext of stage 101 with H_ext [0.0, 0.0, 2093499.6360549307]
+Last stage spend 0.054572 min
+       nmag:2017-02-23 19:14:00,720    main.py 2593    INFO save_data(): id->id+1=100, fields=all 
+       nmag:2017-02-23 19:14:01,993    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:14:01,994 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.11554e+06]<A/m>
+       nmag:2017-02-23 19:14:04,015 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=100,step=34615.
+=============================================================================
+ID=100 |        Step=34615 |       Time=19.58 ns |  Last step size=0.49 ps | 
+       |       Stage=102   | Stage-step=20       |      Stage-time=6.36 ps | 
+       | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+=============================================================================
+Set new H_ext of stage 102 with H_ext [0.0, 0.0, 2115536.474329192]
+Last stage spend 0.054946 min
+       nmag:2017-02-23 19:14:04,016    main.py 2593    INFO save_data(): id->id+1=101, fields=all 
+       nmag:2017-02-23 19:14:05,385    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:14:05,386 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.13757e+06]<A/m>
+       nmag:2017-02-23 19:14:07,613 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=101,step=34635.
+=============================================================================
+ID=101 |        Step=34635 |       Time=19.59 ns |  Last step size=0.49 ps | 
+       |       Stage=103   | Stage-step=20       |      Stage-time=6.18 ps | 
+       | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+=============================================================================
+Set new H_ext of stage 103 with H_ext [0.0, 0.0, 2137573.3126034546]
+Last stage spend 0.059964 min
+       nmag:2017-02-23 19:14:07,614    main.py 2593    INFO save_data(): id->id+1=102, fields=all 
+       nmag:2017-02-23 19:14:09,087    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:14:09,088 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.15961e+06]<A/m>
+       nmag:2017-02-23 19:14:11,441 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=102,step=34655.
+=============================================================================
+ID=102 |        Step=34655 |       Time=19.59 ns |  Last step size=0.49 ps | 
+       |       Stage=104   | Stage-step=20       |      Stage-time=6.19 ps | 
+       | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+=============================================================================
+Set new H_ext of stage 104 with H_ext [0.0, 0.0, 2159610.150877718]
+Last stage spend 0.063812 min
+       nmag:2017-02-23 19:14:11,443    main.py 2593    INFO save_data(): id->id+1=103, fields=all 
+       nmag:2017-02-23 19:14:12,920    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:14:12,921 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.18165e+06]<A/m>
+       nmag:2017-02-23 19:14:15,027 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=103,step=34675.
+=============================================================================
+ID=103 |        Step=34675 |       Time=19.60 ns |  Last step size=0.49 ps | 
+       |       Stage=105   | Stage-step=20       |      Stage-time=6.19 ps | 
+       | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+=============================================================================
+Set new H_ext of stage 105 with H_ext [0.0, 0.0, 2181646.9891519803]
+Last stage spend 0.059766 min
+       nmag:2017-02-23 19:14:15,029    main.py 2593    INFO save_data(): id->id+1=104, fields=all 
+       nmag:2017-02-23 19:14:16,567    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+       nmag:2017-02-23 19:14:16,567 hysteresis.py  450    INFO hysteresis: starting new stage: field = [0 0 2.20368e+06]<A/m>
+       nmag:2017-02-23 19:14:18,546 hysteresis.py  499    INFO hysteresis: saving <function my_save at 0x2e68b90> at id=104,step=34695.
+=============================================================================
+ID=104 |        Step=34695 |       Time=19.61 ns |  Last step size=0.50 ps | 
+       |       Stage=106   | Stage-step=20       |      Stage-time=6.20 ps | 
+       | Convergence=True  |  Stage-end=True     | Exit hysteresis=False   | 
+=============================================================================
+Set new H_ext of stage 106 with H_ext [0.0, 0.0, 2203683.8274262417]
+Last stage spend 0.058633 min
+       nmag:2017-02-23 19:14:18,547    main.py 2593    INFO save_data(): id->id+1=105, fields=all 
+       nmag:2017-02-23 19:14:19,911    main.py 2793    INFO Written fields ['M', 'phi', 'E_ext', 'dmdt', 'pin', 'H_anis', 'E_total', 'm', 'E_anis', 'H_total', 'E_exch', 'H_ext', 'rho', 'H_demag', 'E_demag', 'H_exch'] data to ./cubes_dat.h5
+Use Time 22.466122 min
