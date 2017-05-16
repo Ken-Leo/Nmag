@@ -1,0 +1,10 @@
+﻿  main_ppp.cpp
+main_ppp.cpp(170): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+main_ppp.cpp(379): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码
+  16 of 402 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Poisson.vcxproj -> F:\研究内容\Nmag-master\voronoi\TDMR\Poisson\x64\Release\Poisson.exe
+  Poisson.vcxproj -> F:\研究内容\Nmag-master\voronoi\TDMR\Poisson\x64\Release\Poisson.pdb (Full PDB)

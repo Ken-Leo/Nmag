@@ -1,0 +1,5 @@
+﻿  main_ppp.cpp
+f:\研究内容\nmag-master\voronoi\tdmr\poisson\poisson\main_ppp.cpp(168): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+f:\研究内容\nmag-master\voronoi\tdmr\poisson\poisson\main_ppp.cpp(377): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Poisson.vcxproj -> F:\研究内容\Nmag-master\voronoi\TDMR\Poisson\x64\Debug\Poisson.exe
+  Poisson.vcxproj -> F:\研究内容\Nmag-master\voronoi\TDMR\Poisson\x64\Debug\Poisson.pdb (Full PDB)
